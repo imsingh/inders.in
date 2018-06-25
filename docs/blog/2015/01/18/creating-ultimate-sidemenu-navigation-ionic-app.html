@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Creating Ultimate Sidemenu Navigation for Ionic App. - inders.in
+    
+  </title>
+
+  <meta name="description" content="One of important feature of Mobile App is its navigation system. So far best UI Element for creating navigation is sidemenus. Ionic as a framework is evolved...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/inders.in/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/inders.in/assets/vendor/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/inders.in/assets/main.css">
+  <link rel="canonical" href="https://inders.in/inders.in/blog/2015/01/18/creating-ultimate-sidemenu-navigation-ionic-app.html">
+  <link rel="alternate" type="application/rss+xml" title="inders.in" href="/inders.in/feed.xml">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/inders.in/">inders.in</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/about">About</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/inders.in/posts">Posts</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/work">Work</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+<header class="masthead">
+
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>Creating Ultimate Sidemenu Navigation for Ionic App.</h1>
+          
+          <span class="meta">Posted by
+            <a href="#">Indermohan Singh</a>
+            on January 18, 2015</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      <p>One of important feature of Mobile App is its navigation system. So far best UI Element for creating navigation is sidemenus. Ionic as a framework is evolved so much but its default sidemenu is very simple.(Although my app still uses the default :p). In this post I am going to create a better sidemenu navigation system for Ionic Apps. These example enhanced version of <a href="https://github.com/imsingh/ionic-ion-drawer">ionic-drawer</a> by @maxlynch of Ionic Framework. <strong>1.a</strong> Link the drawer’s CSS and JS of ionic-drawer module and add that module to your app’s dependencies.</p>
+
+<p>and add the drawer module to app’s dependencies.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>angular.module('ionicApp',['ionic','ionic.contrib.drawer'])
+</code></pre></div></div>
+
+<p><strong>1.b</strong> Now layout your Sidemenu in your html file. (This is basic code).</p>
+
+<p>You will get something like shown below : <img src="http://inders.in/wp-content/uploads/2015/01/ionic-drawer-full.png" alt="ionic-drawer-full" /> <a href="https://github.com/imsingh/ionic-drawer-demo">Github Repo</a> This is something good. But we can get sworkit like navigation. If you want Sworkit like SideMenu you have to tweak the css of drawer. <strong>2.a</strong> Edit the drawer.css of the Github Repo and add top:44px; property to drawer’s css like below.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>drawer {
+  display: block;
+  position: fixed;
+  top:44px;
+  width: 270px;
+  height: 100%;
+  z-index: 100;
+}
+</code></pre></div></div>
+
+<p><strong>2.b</strong> Remove the Navigation button from drawer’s html because we won’t need it now. Like shown below :</p>
+
+<p>The End result of this would be something like below:<img src="http://inders.in/wp-content/uploads/2015/01/ionic-drawer1.png" alt="ionic-drawer" /> Source Code of it is at <a href="https://github.com/imsingh/ionic-sworkit-sidemenu">Github repo</a> Is it cool?. Probably good. But not very good. 3. For third version we are adding little animation. First we are creating a directive for toggling the Navigation. It is very simple.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.directive('drawerToggle', function() {
+  return {
+    restrict: 'A',
+    link: function($scope, $element, $attrs) {
+      var el = $element[0];
+      if($attrs.animate === "true") {
+        $element.addClass('animate drawerToggle');
+      }
+      
+      $element.bind('click', function(){
+        if($attrs.animate === "true") {
+          if($scope.toggleDrawer() === "open") {
+            el.style.transform = el.style.webkitTransform = 'translate3d(' + -5 + 'px, 0, 0)';
+          } else {
+            el.style.transform = el.style.webkitTransform = 'translate3d(' + 0 + 'px, 0, 0)';
+          }   
+        } else {
+            $scope.toggleDrawer();
+        }
+      });
+    }
+  };
+})
+</code></pre></div></div>
+
+<p>With this directive we are toggling the drawer and added some animation to the navigation button by adding animate class. You also need to add following css styles in your app.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.animate {
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+
+.drawerToggle {
+  right:25px;
+}
+</code></pre></div></div>
+
+<p>and also you have to put the animate=”true” attribute to your navigation button. Like Below.</p>
+
+<p><a href="http://imsingh.github.io/ionic-animated-drawer/">Live Demo</a></p>
+
+<p>Source Code of it is at <a href="https://github.com/imsingh/ionic-animated-drawer">Github repo</a> This is all for now. Thanks for reading folks!</p>
+
+<h2 id="comments">Comments</h2>
+
+<p><strong><a href="#7" title="2015-01-22 18:35:00">LorenH</a>:</strong> Nice work Indermohan! The mobile drawer menus are what attracted our company to the Ionic Framework initially. Your enhancements match the Android specs well. http://developer.android.com/design/patterns/navigation-drawer.html</p>
+
+<p><strong><a href="#8" title="2015-04-15 20:48:00">tno2007</a>:</strong> thanks so much, the ionic default drawer is very basic, i was looking how to style it better. personally i like the first picture’s style over the other.</p>
+
+<p><strong><a href="#9" title="2015-04-16 04:15:00">musicalinder</a>:</strong> @tno2007:disqus It is good to see that my work is helpful to you. Thanks and Every one has their own preference. Use whatever you like.</p>
+
+<p><strong><a href="#11" title="2015-05-11 05:39:00">ryan</a>:</strong> Hi I follow instructions step by step but I don’t get the result as you discribe. I linked drawer js and css, then I add sidemenu.html. But my view title doesn’t appear on sidebar. I checked html source. My html has many more class. Could you help me? I added my html belowed. It is different from your demo http://imsingh.github.io/ionic-animated-drawer/#/main</p>
+
+<p><strong><a href="#12" title="2015-05-19 17:46:00">musicalinder</a>:</strong> @disqus_2OaQMnlxx8:disqus Can you create a codepen and send link to my email at indermohansinghk7@gmail.com. I will be happy to help you. Thanks.</p>
+
+<p><strong><a href="#14" title="2015-05-28 03:13:00">kevin jose</a>:</strong> thank you so much for the share ..!! :)</p>
+
+<p><strong><a href="#183" title="2016-01-28 18:16:00">piyush aggarwal</a>:</strong> How disable drawer on inner pages.. I want it to be enable on only on home page.</p>
+
+<p><strong><a href="#184" title="2016-01-28 18:18:00">piyush aggarwal</a>:</strong> How to close the drawer on clicking outside the drawer?</p>
+
+<p><strong><a href="#191" title="2016-07-14 06:42:00">Chirag thaker</a>:</strong> hi, nav drawer looks good. style is working but how to implement in live real app. means i added items but clicking on items does not open view</p>
+
+
+
+      <hr>
+
+      <div class="clearfix">
+
+        
+        <a class="btn btn-primary float-left" href="/inders.in/blog/2014/11/10/environment-learning-javascript.html" data-toggle="tooltip" data-placement="top" title="Environment for Learning JavaScript">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        
+        
+        <a class="btn btn-primary float-right" href="/inders.in/blog/2015/06/02/display-flickr-albums-in-your-ionic-app.html" data-toggle="tooltip" data-placement="top" title="Display Flickr Albums in your Ionic App.">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com/imsinghk7">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/imsingh">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Indermohan Singh 2018</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/inders.in/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/inders.in/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/inders.in/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/inders.in/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>

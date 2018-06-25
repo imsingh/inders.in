@@ -16,6 +16,7 @@ facebook_username:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+destination: ./docs/
 
 paginate:          5
 paginate_path:     "/posts/page:num/"

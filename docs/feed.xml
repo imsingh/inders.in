@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://inders.in/inders.in/feed.xml" rel="self" type="application/atom+xml" /><link href="https://inders.in/inders.in/" rel="alternate" type="text/html" /><updated>2018-06-26T01:40:43+02:00</updated><id>https://inders.in/inders.in/</id><title type="html">inders.in</title><subtitle>CODE | MUSIC</subtitle><author><name>Indermohan Singh</name></author><entry><title type="html">Ionic 2 Blueprints</title><link href="https://inders.in/inders.in/blog/2016/08/31/ionic-2-blueprint.html" rel="alternate" type="text/html" title="Ionic 2 Blueprints" /><published>2016-08-31T00:00:00+02:00</published><updated>2016-08-31T00:00:00+02:00</updated><id>https://inders.in/inders.in/blog/2016/08/31/ionic-2-blueprint</id><content type="html" xml:base="https://inders.in/inders.in/blog/2016/08/31/ionic-2-blueprint.html">&lt;p&gt;Hi Folks, it is good to be back at writing this blog. I am so excited to tell you that my first book is published by Packt Publication named &lt;em&gt;Ionic 2 Blueprints&lt;/em&gt;. As the name suggests, this book is about Ionic 2 and it will take you to the journey of creating 7 Mobile Apps using Ionic 2. 
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/ionic-2-blueprints.png&quot; alt=&quot;Ionic2Blueprint&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are  the details of these 7 apps.&lt;/p&gt;
+
+&lt;p&gt;Chapter 1, &lt;strong&gt;Chat App with Firebase&lt;/strong&gt;, will show you to create a real-time chat application using &lt;em&gt;Firebase&lt;/em&gt;. You will learn how to use tabs in Ionic 2, how to set up Firebase and how to use Firebase with AngularFire2 to create a chat application.&lt;/p&gt;
+
+&lt;p&gt;Chapter 2, &lt;strong&gt;E-Commerce App with Marketcloud&lt;/strong&gt;, will introduce you to a fairly new BaaS platform for e-commerce, Marketcloud. You will create a complete e-commerce app using the Marketcloud SDK and dashboard, process payments using payment gateway integrations, use the Ionic 2 menu and navigation, learn how to use a loader using Ionic Loading.&lt;/p&gt;
+
+&lt;p&gt;Chapter 3, &lt;strong&gt;Conference App&lt;/strong&gt;, will show you how to create a conference app. We will use &lt;em&gt;Lanyrd’s compatible JSON&lt;/em&gt; data to build an offline conference app, which will leverage native device capabilities using Ionic native, Leverages LocalStorage, using both Ionic menu and tabs together. We will also use RxJS to build a search filter.&lt;/p&gt;
+
+&lt;p&gt;Chapter 4, &lt;strong&gt;StockMarket App&lt;/strong&gt;, will show you how to create a stock market app, which shows information about the stock of your choice. You will create a reusable UI component using the Angular 2 component API, utilize RxJS to get stock data continuously from Yahoo API, create a custom Angular Pipe, and create responsive charts to display stock history.&lt;/p&gt;
+
+&lt;p&gt;Chapter 5, &lt;strong&gt;WordPress Client App&lt;/strong&gt;, will show you how to create a mobile client for your WordPress blog or site. You will be introduced to the &lt;em&gt;WordPress REST API&lt;/em&gt;, Ionic toast, infinite scrolling in Ionic 2, and push notification, with Ionic native, using Google Analytics. The end product will be a WordPress client with blog posts, comments, categories, and WordPress pages.&lt;/p&gt;
+
+&lt;p&gt;Chapter 6, &lt;strong&gt;Media Player App&lt;/strong&gt;, will show you how to create a media player. It is one of the special apps in this book. You will create a complete player with a seek bar for changing the playing position, a play and pause button, and playlist options with a next and previous button. You will also create a file browser to get media from the device.&lt;/p&gt;
+
+&lt;p&gt;Chapter 7, &lt;strong&gt;Social App with Firebase&lt;/strong&gt;, will show you how to create a social app using Firebase. You will use the Firebase database store information and Firebase storage store binary information such as images. Our social app will be like Twitter, in which users can follow other users and see their posts. The chapter will also deal with creating the database structure for our app.&lt;/p&gt;
+
+&lt;p&gt;I have tried to write all this application, where reader will require no or negligible knowledge of back-end. Most of stuff is to deal with Ionic/Front-end part. You can buy the book from &lt;a href=&quot;https://www.packtpub.com/web-development/ionic-2-blueprints&quot; target=&quot;_new&quot;&gt;Here&lt;/a&gt; and Download the source code of Each Chapter at &lt;a href=&quot;https://github.com/ionic2blueprints/&quot; target=&quot;_new&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope this book will be helpful for all Ionic Folks. Thanks!&lt;/p&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Hi Folks, it is good to be back at writing this blog. I am so excited to tell you that my first book is published by Packt Publication named Ionic 2 Blueprints. As the name suggests, this book is about Ionic 2 and it will take you to the journey of creating 7 Mobile Apps using Ionic 2. Here are  the details of these 7 apps. Chapter 1, Chat App with Firebase, will show you to create a real-time chat application using Firebase. You will learn how to use tabs in Ionic 2, how to set up Firebase and how to use Firebase with AngularFire2 to create a chat application. Chapter 2, E-Commerce App with Marketcloud, will introduce you to a fairly new BaaS platform for e-commerce, Marketcloud. You will create a complete e-commerce app using the Marketcloud SDK and dashboard, process payments using payment gateway integrations, use the Ionic 2 menu and navigation, learn how to use a loader using Ionic Loading. Chapter 3, Conference App, will show you how to create a conference app. We will use Lanyrd’s compatible JSON data to build an offline conference app, which will leverage native device capabilities using Ionic native, Leverages LocalStorage, using both Ionic menu and tabs together. We will also use RxJS to build a search filter. Chapter 4, StockMarket App, will show you how to create a stock market app, which shows information about the stock of your choice. You will create a reusable UI component using the Angular 2 component API, utilize RxJS to get stock data continuously from Yahoo API, create a custom Angular Pipe, and create responsive charts to display stock history. Chapter 5, WordPress Client App, will show you how to create a mobile client for your WordPress blog or site. You will be introduced to the WordPress REST API, Ionic toast, infinite scrolling in Ionic 2, and push notification, with Ionic native, using Google Analytics. The end product will be a WordPress client with blog posts, comments, categories, and WordPress pages. Chapter 6, Media Player App, will show you how to create a media player. It is one of the special apps in this book. You will create a complete player with a seek bar for changing the playing position, a play and pause button, and playlist options with a next and previous button. You will also create a file browser to get media from the device. Chapter 7, Social App with Firebase, will show you how to create a social app using Firebase. You will use the Firebase database store information and Firebase storage store binary information such as images. Our social app will be like Twitter, in which users can follow other users and see their posts. The chapter will also deal with creating the database structure for our app. I have tried to write all this application, where reader will require no or negligible knowledge of back-end. Most of stuff is to deal with Ionic/Front-end part. You can buy the book from Here and Download the source code of Each Chapter at Github I hope this book will be helpful for all Ionic Folks. Thanks!</summary></entry><entry><title type="html">Creating Radio Player with Ionic 2 and HTML 5</title><link href="https://inders.in/inders.in/blog/2016/02/12/creating-radio-player-with-ionic-2-and-html5.html" rel="alternate" type="text/html" title="Creating Radio Player with Ionic 2 and HTML 5" /><published>2016-02-12T00:00:00+01:00</published><updated>2016-02-12T00:00:00+01:00</updated><id>https://inders.in/inders.in/blog/2016/02/12/creating-radio-player-with-ionic-2-and-html5</id><content type="html" xml:base="https://inders.in/inders.in/blog/2016/02/12/creating-radio-player-with-ionic-2-and-html5.html">&lt;p&gt;Hi, Folks. Ionic 2 is creating a buzz in Hybrid Development. Developers are loving various features of Ionic 2. If you are not familiar with Ionic 2 yet. Read my previous &lt;a href=&quot;/blog/2015/10/28/introduction-to-ionic-2/&quot;&gt;post on Ionic2.&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Recently I created a Radio Streaming app in Ionic 1. So I decided to put together an Ionic 2 demo for a Radio App. There will be no nitty gritty features. I will just create a basic demo of Radio Player with play and pause buttons. So let’s do it. You need to install the beta version of ionic.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; ionic@beta
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now create a blank project with ionic cli.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ionic start radio blank &lt;span class=&quot;nt&quot;&gt;--v2&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--ts&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;radio
+ionic platform add ios
+ionic platform add android
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We can start coding our Radio Player Functionality. Create a radio.ts at /app/radio/radio.ts&lt;/p&gt;
+
+&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RadioPlayer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;stream&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  
+  &lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://akalmultimedia.net:8000/GDNSLDH&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Audio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;play&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stream&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;play&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;promise&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stream&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'playing'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+      &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stream&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'error'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;pause&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stream&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pause&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is our basic Angular 2 Service for Radio Player. We have used HTML5 Audio Component and ES6 Promise. It is pretty basic. The constructor initializes the URL and stream class members, play function play the stream. Promise resolves when playing event is fired and it is rejected when an error event is fired. pause function pauses the audio. Here URL is shoutcast stream url. You can also replace it with any file hosted on Internet. Now edit the home.html file by deleting the unwanted content and adding play and pause button.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ion-navbar&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;navbar&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ion-title&amp;gt;&lt;/span&gt; Radio Player &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ion-title&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ion-navbar&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;ion-content&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;home&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;)=&quot;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;play&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;()&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ion-icon&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;play&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/ion-icon&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt; 
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dark&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;)=&quot;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;pause&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;()&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;ion-icon&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pause&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/ion-icon&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ion-content&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Remember that we haven’t yet added the play and pause button in our home.ts file. So let’s edit our home.ts at /app/pages/home/home.ts&lt;/p&gt;
+
+&lt;div class=&quot;language-typescript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ionic-framework/ionic'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;RadioPlayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'../../radio/radio'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;Page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;templateUrl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'build/pages/home/home.html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;providers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;RadioPlayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HomePage&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RadioPlayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;play&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;play&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Playing'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;pause&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pause&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;We imported our RadioPlayer class and used that class in our HomePage Class. Take a look at @Page annotation that we have used providers in it. Also check the constructor where we have player parameter of RadioPlayer type. play and pause functions are just calling play and pause of RadioPlayer Class.&lt;/p&gt;
+
+&lt;p&gt;I hope you will be able to create a radio Player with Ionic 2 and HTML5. You can check the source code of this demo at Github repo of &lt;a href=&quot;https://github.com/imsingh/ionic2-radio&quot;&gt;Ionic2-radio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Hi, Folks. Ionic 2 is creating a buzz in Hybrid Development. Developers are loving various features of Ionic 2. If you are not familiar with Ionic 2 yet. Read my previous post on Ionic2. Recently I created a Radio Streaming app in Ionic 1. So I decided to put together an Ionic 2 demo for a Radio App. There will be no nitty gritty features. I will just create a basic demo of Radio Player with play and pause buttons. So let’s do it. You need to install the beta version of ionic. npm install -g ionic@beta Now create a blank project with ionic cli. ionic start radio blank --v2 --ts cd radio ionic platform add ios ionic platform add android We can start coding our Radio Player Functionality. Create a radio.ts at /app/radio/radio.ts export class RadioPlayer { url:string; stream:any; promise:any; constructor() { this.url = &quot;http://akalmultimedia.net:8000/GDNSLDH&quot;; this.stream = new Audio(this.url); }; play() { this.stream.play(); this.promise = new Promise((resolve,reject) =&amp;gt; { this.stream.addEventListener('playing', () =&amp;gt; { resolve(true); }); this.stream.addEventListener('error', () =&amp;gt; { reject(false); }); }); return this.promise; }; pause() { this.stream.pause(); }; } This is our basic Angular 2 Service for Radio Player. We have used HTML5 Audio Component and ES6 Promise. It is pretty basic. The constructor initializes the URL and stream class members, play function play the stream. Promise resolves when playing event is fired and it is rejected when an error event is fired. pause function pauses the audio. Here URL is shoutcast stream url. You can also replace it with any file hosted on Internet. Now edit the home.html file by deleting the unwanted content and adding play and pause button. &amp;lt;ion-navbar *navbar&amp;gt; &amp;lt;ion-title&amp;gt; Radio Player &amp;lt;/ion-title&amp;gt; &amp;lt;/ion-navbar&amp;gt; &amp;lt;ion-content class=&quot;home&quot;&amp;gt; &amp;lt;button dark (click)=&quot;play()&quot;&amp;gt; &amp;lt;ion-icon name=&quot;play&quot;&amp;gt;&amp;lt;/ion-icon&amp;gt; &amp;lt;/button&amp;gt; &amp;lt;button dark (click)=&quot;pause()&quot;&amp;gt; &amp;lt;ion-icon name=&quot;pause&quot;&amp;gt;&amp;lt;/ion-icon&amp;gt; &amp;lt;/button&amp;gt; &amp;lt;/ion-content&amp;gt; Remember that we haven’t yet added the play and pause button in our home.ts file. So let’s edit our home.ts at /app/pages/home/home.ts import {Page} from 'ionic-framework/ionic'; import {RadioPlayer} from '../../radio/radio'; @Page({ templateUrl: 'build/pages/home/home.html', providers: [RadioPlayer] }) export class HomePage { player:any; constructor(player: RadioPlayer) { this.player = player; } play() { this.player.play().then(() =&amp;gt; { console.log('Playing'); }); } pause() { this.player.pause(); } } We imported our RadioPlayer class and used that class in our HomePage Class. Take a look at @Page annotation that we have used providers in it. Also check the constructor where we have player parameter of RadioPlayer type. play and pause functions are just calling play and pause of RadioPlayer Class. I hope you will be able to create a radio Player with Ionic 2 and HTML5. You can check the source code of this demo at Github repo of Ionic2-radio. Thanks for reading!</summary></entry><entry><title type="html">Introduction to Ionic 2</title><link href="https://inders.in/inders.in/blog/2015/10/28/introduction-to-ionic-2.html" rel="alternate" type="text/html" title="Introduction to Ionic 2" /><published>2015-10-28T00:00:00+01:00</published><updated>2015-10-28T00:00:00+01:00</updated><id>https://inders.in/inders.in/blog/2015/10/28/introduction-to-ionic-2</id><content type="html" xml:base="https://inders.in/inders.in/blog/2015/10/28/introduction-to-ionic-2.html">&lt;p&gt;Hi Friends. I am back with a special blog post about the upcoming version of Ionic framework,  Ionic v2. Ionic v2 is now publicly released. I was lucky enough to try the ionic v2 before it’s public launch. So this post is my experience with Ionic v2 and also and introduction to new framework. 
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;In this blog post, I am going to discuss the very basic of Ionic app and what is happening in your app and little differences between angular 2 and ionic 2 apps. So let’s get started.&lt;/p&gt;
+
+&lt;p&gt;Ionic 2 is built on the top of &lt;strong&gt;Angular 2&lt;/strong&gt;, &lt;strong&gt;TypeScript&lt;/strong&gt;. So,this is a total change in terms of development. We don’t have $scope, ng-controllers, angular 1.x services and things that were part of ionic v1. Now we have totally new development stuff. Ionic 2 Allows ynou to write your applications in either &lt;strong&gt;ES6&lt;/strong&gt;(ECMAScript 6) or TypeScript (Superset of JavaScript). So we now have to deal with stuff like Classes, Decorators, ES6 Modules, Arrow functions, block scope.&lt;/p&gt;
+
+&lt;p&gt;Since Ionic 2 is built on top of Angular 2, so we are basically developing angular 2 apps, but with some differences. Let’s first see a typical Angular 2 app.&lt;/p&gt;
+
+&lt;h2 id=&quot;angular-2&quot;&gt;Angular 2&lt;/h2&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bootstrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;MyServices&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MyDirectives&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'myapp'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;Component&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'my-component'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Hello, '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;directives&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;MyDirectives&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MyComponent&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Max'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;bootstrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;MyComponent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;MyServices&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;First we are importing stuff like Component and bootstrap from ‘@angular/core’ module. Every angular 2 apps is centered around Components. Components are UI Elements, which consist of two parts : Component Annotation and Component Controller. We can have components inside our component. So angular 2 apps are tree of components.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;@Component&lt;/strong&gt; annotation tells about the selector of our component. In this case, it is &lt;strong&gt;my-component, &lt;/strong&gt;and we also have to inject the services required by the component using &lt;strong&gt;providers **key inside component or during&lt;/strong&gt; bootstrap. &lt;strong&gt;We also have to Inject the directives that we are using in this component by using **directives &lt;/strong&gt;property. In this case, &lt;strong&gt;MyDirective &lt;/strong&gt;is the directive that we are using in this component.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;class&lt;/strong&gt; is basically the &lt;strong&gt;controller&lt;/strong&gt; of our component, through which we are controlling the behavior of our Component.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At Last, we are bootstraping our applications manually by using &lt;strong&gt;bootstrap&lt;/strong&gt;.We are also injecting our service &lt;strong&gt;MyServices&lt;/strong&gt; in bootstrap.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When we use the tag in our HTML, this component will be created,our constructor called, and rendered.&lt;/p&gt;
+
+&lt;p&gt;You can easily notice, that it is very different from angular 1 applications. In Angular 1, we start from &lt;strong&gt;ng-app&lt;/strong&gt;, which also automatically bootstrap our applications. We also don’t have &lt;strong&gt;angular.module&lt;/strong&gt; system.&lt;/p&gt;
+
+&lt;h1 id=&quot;ionic-2&quot;&gt;Ionic 2&lt;/h1&gt;
+
+&lt;p&gt;Now we have created the ground for explaining a basic Ionic 2 App. Let’s move to Ionic 2.&lt;/p&gt;
+
+&lt;p&gt;Best way to getting started with Ionic 2 is using ionic-cli. Follow this installation Guide by ionic team &lt;a href=&quot;http://ionicframework.com/docs/v2/getting-started/installation/&quot;&gt;http://ionicframework.com/docs/v2/getting-started/installation/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But understanding what is happening in the app is very important.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-basic-app&quot;&gt;A Basic App&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ionicBootstrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ionic-angular'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'@angular/core'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;Component&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;templateUrl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'templates/main.html'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MyApp&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Max'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;ionicBoostrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;MyApp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Woah? Where is selector on component? How this class gonna match to element on View? That was my first reaction.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ionicBootstrap **basically, select a hard-coded root element named as **ion-app. &lt;/strong&gt; That’s why there is no selector on &lt;strong&gt;@Component&lt;/strong&gt;&lt;strong&gt;. &lt;/strong&gt;Initially Ionic team was doing this using Custom Decorators like** @App &lt;strong&gt;and &lt;/strong&gt;@Page. **You can still select use any custom root selector of your choice. Just put that in @Component Decorator. ionicBootstrap also inject various things automatically for you. Like FORM_PROVIDERS, IONIC_DIRECTIVES, HTTP_PROVIDERS. It also makes your app styling matched to the platform, it is running.&lt;/p&gt;
+
+&lt;p&gt;If you have any external Services and Directives. You have to include these as mentioned in angular 2 section.&lt;/p&gt;
+
+&lt;p&gt;For more information go to &lt;a href=&quot;http://v2.ionic.io&quot;&gt;http://ionicframework.com/docs/v2&lt;/a&gt; .This is all about the introduction to Ionic 2 for today. Stay tuned for Upcoming Ionic 2 post in this series.&lt;/p&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Hi Friends. I am back with a special blog post about the upcoming version of Ionic framework,  Ionic v2. Ionic v2 is now publicly released. I was lucky enough to try the ionic v2 before it’s public launch. So this post is my experience with Ionic v2 and also and introduction to new framework. In this blog post, I am going to discuss the very basic of Ionic app and what is happening in your app and little differences between angular 2 and ionic 2 apps. So let’s get started. Ionic 2 is built on the top of Angular 2, TypeScript. So,this is a total change in terms of development. We don’t have $scope, ng-controllers, angular 1.x services and things that were part of ionic v1. Now we have totally new development stuff. Ionic 2 Allows ynou to write your applications in either ES6(ECMAScript 6) or TypeScript (Superset of JavaScript). So we now have to deal with stuff like Classes, Decorators, ES6 Modules, Arrow functions, block scope. Since Ionic 2 is built on top of Angular 2, so we are basically developing angular 2 apps, but with some differences. Let’s first see a typical Angular 2 app. Angular 2 import {Component, bootstrap} from '@angular/core'; import {MyServices, MyDirectives} from 'myapp'; @Component({ selector: 'my-component', template: 'Hello, ', directives: [MyDirectives] }) export class MyComponent { constructor() { this.name = 'Max'; } } bootstrap(MyComponent, [MyServices]); First we are importing stuff like Component and bootstrap from ‘@angular/core’ module. Every angular 2 apps is centered around Components. Components are UI Elements, which consist of two parts : Component Annotation and Component Controller. We can have components inside our component. So angular 2 apps are tree of components. @Component annotation tells about the selector of our component. In this case, it is my-component, and we also have to inject the services required by the component using providers **key inside component or during bootstrap. We also have to Inject the directives that we are using in this component by using **directives property. In this case, MyDirective is the directive that we are using in this component. class is basically the controller of our component, through which we are controlling the behavior of our Component. At Last, we are bootstraping our applications manually by using bootstrap.We are also injecting our service MyServices in bootstrap. When we use the tag in our HTML, this component will be created,our constructor called, and rendered. You can easily notice, that it is very different from angular 1 applications. In Angular 1, we start from ng-app, which also automatically bootstrap our applications. We also don’t have angular.module system. Ionic 2 Now we have created the ground for explaining a basic Ionic 2 App. Let’s move to Ionic 2. Best way to getting started with Ionic 2 is using ionic-cli. Follow this installation Guide by ionic team http://ionicframework.com/docs/v2/getting-started/installation/. But understanding what is happening in the app is very important. A Basic App import {ionicBootstrap} from 'ionic-angular'; import {Component} from '@angular/core'; @Component({ templateUrl: 'templates/main.html' }) class MyApp { constructor() { this.name = 'Max'; } } ionicBoostrap(MyApp); Woah? Where is selector on component? How this class gonna match to element on View? That was my first reaction. ionicBootstrap **basically, select a hard-coded root element named as **ion-app.  That’s why there is no selector on @Component. Initially Ionic team was doing this using Custom Decorators like** @App and @Page. **You can still select use any custom root selector of your choice. Just put that in @Component Decorator. ionicBootstrap also inject various things automatically for you. Like FORM_PROVIDERS, IONIC_DIRECTIVES, HTTP_PROVIDERS. It also makes your app styling matched to the platform, it is running. If you have any external Services and Directives. You have to include these as mentioned in angular 2 section. For more information go to http://ionicframework.com/docs/v2 .This is all about the introduction to Ionic 2 for today. Stay tuned for Upcoming Ionic 2 post in this series.</summary></entry><entry><title type="html">Writing JavaScript in ES6 for today’s world.</title><link href="https://inders.in/inders.in/blog/2015/08/01/writing-javascript-in-es6-for-todays-world.html" rel="alternate" type="text/html" title="Writing JavaScript in ES6 for today's world." /><published>2015-08-01T00:00:00+02:00</published><updated>2015-08-01T00:00:00+02:00</updated><id>https://inders.in/inders.in/blog/2015/08/01/writing-javascript-in-es6-for-todays-world</id><content type="html" xml:base="https://inders.in/inders.in/blog/2015/08/01/writing-javascript-in-es6-for-todays-world.html">&lt;p&gt;Hi Folks. In this blog post, I am going to talk about using ES6 for today’s world. In brief, ES6 a.k.a ECMAScript Harmony is the latest standard of &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt; Language which supports tons of new features like &lt;code class=&quot;highlighter-rouge&quot;&gt;Classes&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Modules&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Block Scope&lt;/code&gt; and so on!.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately most of today’s browser not fully support ES6, and you are guessing why this post is? This post is for creating a development environment where you can use ES6 in your production apps. It is true that browser doesn’t support ES6 fully. But it doesn’t mean we can’t write in ES6 today.&lt;/p&gt;
+
+&lt;p&gt;Here comes transpilers for the rescue. Transpilers are the softwares which convert source-code from one language to other language. So, for example ES6 to ES5. So basically what we do is, we will write in ES6 and that code will be converted into &lt;code class=&quot;highlighter-rouge&quot;&gt;ES5&lt;/code&gt; version that all browsers understand. Cool, isn’t it. There are bunch of transpilers available for &lt;code class=&quot;highlighter-rouge&quot;&gt;JavaScrip&lt;/code&gt;t like &lt;em&gt;babel&lt;/em&gt;, &lt;em&gt;traceur&lt;/em&gt;, &lt;em&gt;closure&lt;/em&gt;. I will be using babel. So, Lets get started.&lt;/p&gt;
+
+&lt;p&gt;First I am laying the structure of the app and briefly explaining it.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dist
+gulpfile.js
+index.html
+js
+node_modules
+package.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Explanation&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;dist:&lt;/strong&gt; In this folder, we will save all our ES5 browser friendly code.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gulpfile.js:&lt;/strong&gt; It is the configuration file for Gulp Task Runner. Which we will be using to automate things.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;index.html:&lt;/strong&gt; It is the entry point to our app.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;js:&lt;/strong&gt; In this folder we will write our ES6 code.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;node_modules:&lt;/strong&gt; npm install node_modules in this directory. You can ignore it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;package.json:&lt;/strong&gt; This files holds list of dependencies that we require to do configure our development enviornment.
+Let’s create a folder for it, you can name it anything. I like es6-play, and create a package.json as follows.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;es6-play&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1.0.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;dependencies&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;gulp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;^3.9.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;gulp-babel&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;^5.1.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;gulp-connect&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;^2.2.0&quot;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now run following command for installing npm packages.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now create a gulpfile.js for our gulp task runner. If you are not familiar with it check it at &lt;a href=&quot;http://gulpjs.com&quot;&gt;gulpjs.com&lt;/a&gt;. gulpfile.js&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//gulpfile.js&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'gulp'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;babel&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'gulp-babel'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;connect&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'gulp-connect'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// app settings&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;settings&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;port&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8080&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Default Task&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'default'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'serve'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'watch'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Transpile Task&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'transpile'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'js/**/*.js'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;babel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pipe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'dist'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Watch the js source files and transpile it.&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'watch'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'js/**/*.js'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'transpile'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;gulp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'serve'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'transpile'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;settings&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;livereload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Briefly Explaining each function.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;gulp.task(‘default’,&lt;/strong&gt; … : is for creating default task for gulp. When we run gulp command in cli. It wil run.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gulp.task(‘transpile’&lt;/strong&gt;, … : It basically converts our es6 code written in js folder into es5 code in dist folder.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gulp.task(‘watch’,&lt;/strong&gt; … : It watches the js folder for any changes and then again transpile our code.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;gulp.task(‘serve’,&lt;/strong&gt; … : It runs the local server for running our app.
+Now create a file name app.js in js folder as follows :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// js/app.js&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;jslibrary&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We are creating an empty class named jslibrary. Now run the command in terminal or cmd:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gulp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You will see the ES5 code in dist/app.js as follows :&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// dist/app.js&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;&quot;use strict&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_classCallCheck&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Cannot call a class as a function&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MyGod&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MyGod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;_classCallCheck&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MyGod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;TADA. We have setup our development environment for working with ES6. Wanna play with ES6? Just Checkout my &lt;a href=&quot;https://github.com/imsingh/es6-play&quot;&gt;es6-play&lt;/a&gt; Github repo. That’s it for today’s post.&lt;/p&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Hi Folks. In this blog post, I am going to talk about using ES6 for today’s world. In brief, ES6 a.k.a ECMAScript Harmony is the latest standard of JavaScript Language which supports tons of new features like Classes, Modules, Block Scope and so on!. Unfortunately most of today’s browser not fully support ES6, and you are guessing why this post is? This post is for creating a development environment where you can use ES6 in your production apps. It is true that browser doesn’t support ES6 fully. But it doesn’t mean we can’t write in ES6 today. Here comes transpilers for the rescue. Transpilers are the softwares which convert source-code from one language to other language. So, for example ES6 to ES5. So basically what we do is, we will write in ES6 and that code will be converted into ES5 version that all browsers understand. Cool, isn’t it. There are bunch of transpilers available for JavaScript like babel, traceur, closure. I will be using babel. So, Lets get started. First I am laying the structure of the app and briefly explaining it. dist gulpfile.js index.html js node_modules package.json Explanation dist: In this folder, we will save all our ES5 browser friendly code. gulpfile.js: It is the configuration file for Gulp Task Runner. Which we will be using to automate things. index.html: It is the entry point to our app. js: In this folder we will write our ES6 code. node_modules: npm install node_modules in this directory. You can ignore it. package.json: This files holds list of dependencies that we require to do configure our development enviornment. Let’s create a folder for it, you can name it anything. I like es6-play, and create a package.json as follows. { &quot;name&quot;: &quot;es6-play&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;dependencies&quot; : { &quot;gulp&quot;: &quot;^3.9.0&quot;, &quot;gulp-babel&quot;: &quot;^5.1.0&quot;, &quot;gulp-connect&quot;: &quot;^2.2.0&quot; } } Now run following command for installing npm packages. $ npm install Now create a gulpfile.js for our gulp task runner. If you are not familiar with it check it at gulpjs.com. gulpfile.js //gulpfile.js var gulp = require('gulp'); var babel = require('gulp-babel'); var connect = require('gulp-connect'); // app settings var settings = { port : 8080 }; // Default Task gulp.task('default', ['serve','watch'], function(){ }); // Transpile Task gulp.task('transpile', function() { gulp.src('js/**/*.js') .pipe(babel()) .pipe(gulp.dest('dist')); }); // Watch the js source files and transpile it. gulp.task('watch', function() { gulp.watch('js/**/*.js', ['transpile']); }); gulp.task('serve', ['transpile'], function() { connect.server({ port: settings.port, livereload: true }); Briefly Explaining each function. gulp.task(‘default’, … : is for creating default task for gulp. When we run gulp command in cli. It wil run. gulp.task(‘transpile’, … : It basically converts our es6 code written in js folder into es5 code in dist folder. gulp.task(‘watch’, … : It watches the js folder for any changes and then again transpile our code. gulp.task(‘serve’, … : It runs the local server for running our app. Now create a file name app.js in js folder as follows : // js/app.js class jslibrary { } We are creating an empty class named jslibrary. Now run the command in terminal or cmd: $ gulp You will see the ES5 code in dist/app.js as follows : // dist/app.js &quot;use strict&quot;; function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(&quot;Cannot call a class as a function&quot;); } } var MyGod = function MyGod() { _classCallCheck(this, MyGod); }; TADA. We have setup our development environment for working with ES6. Wanna play with ES6? Just Checkout my es6-play Github repo. That’s it for today’s post.</summary></entry><entry><title type="html">Support young entrepreneur to reach MIT Entrepreneurship Bootcamp</title><link href="https://inders.in/inders.in/blog/2015/06/20/support-me-to-reach-at-mit-entrepreneurship-bootcamp.html" rel="alternate" type="text/html" title="Support young entrepreneur to reach MIT Entrepreneurship Bootcamp" /><published>2015-06-20T00:00:00+02:00</published><updated>2015-06-20T00:00:00+02:00</updated><id>https://inders.in/inders.in/blog/2015/06/20/support-me-to-reach-at-mit-entrepreneurship-bootcamp</id><content type="html" xml:base="https://inders.in/inders.in/blog/2015/06/20/support-me-to-reach-at-mit-entrepreneurship-bootcamp.html">&lt;p&gt;Hello developers and entrepreneurs.&lt;/p&gt;
+
+&lt;p&gt;I am very happy to announce that my startup idea Ragakosh is selected for MIT Entrepreneurship Bootcamp this year. 
+&lt;!--more--&gt;
+The MITx Global Entrepreneurship Bootcamp is a nexus connecting entrepreneurs from around the world to the entrepreneurial ecosystem surrounding the Massachusetts Institute of Technology.&lt;/p&gt;
+
+&lt;p&gt;To reach at MIT, I need your support. Tuition for Bootcamp is $6000 and other costs are nearly $2000. Please support my Indiegogo Campaign at &lt;strong&gt;&lt;a href=&quot;http://igg.me/at/entrepreneurship/x/10537658&quot;&gt;http://igg.me/at/entrepreneurship/x/10537658&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Your support will help to transform my idea into reality.&lt;/p&gt;
+
+&lt;p&gt;Thanks.&lt;/p&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Hello developers and entrepreneurs. I am very happy to announce that my startup idea Ragakosh is selected for MIT Entrepreneurship Bootcamp this year. The MITx Global Entrepreneurship Bootcamp is a nexus connecting entrepreneurs from around the world to the entrepreneurial ecosystem surrounding the Massachusetts Institute of Technology. To reach at MIT, I need your support. Tuition for Bootcamp is $6000 and other costs are nearly $2000. Please support my Indiegogo Campaign at http://igg.me/at/entrepreneurship/x/10537658 Your support will help to transform my idea into reality. Thanks.</summary></entry><entry><title type="html">Display Flickr Albums in your Ionic App.</title><link href="https://inders.in/inders.in/blog/2015/06/02/display-flickr-albums-in-your-ionic-app.html" rel="alternate" type="text/html" title="Display Flickr Albums in your Ionic App." /><published>2015-06-02T00:00:00+02:00</published><updated>2015-06-02T00:00:00+02:00</updated><id>https://inders.in/inders.in/blog/2015/06/02/display-flickr-albums-in-your-ionic-app</id><content type="html" xml:base="https://inders.in/inders.in/blog/2015/06/02/display-flickr-albums-in-your-ionic-app.html">&lt;p&gt;Hi Folks. Its been a long time since my last post. I was trying to put together what I have learned in previous couple of months about Angularjs and Ionic. In one of my previous app I used Flickr’s album(Photosets). So this post is all about Using Flickr’s Photo Albums in Ionic App. This is very minimal post. We will make a very small app. So lets get started. Before doing any coding stuff. We need Flickr API key from here : &lt;a href=&quot;https://www.flickr.com/services/apps/create/apply/&quot;&gt;https://www.flickr.com/services/apps/create/apply/&lt;/a&gt; You also need Yahoo Account for creating API Key. &lt;img src=&quot;http://inders.in/wp-content/uploads/2015/06/Flickr1.png&quot; alt=&quot;Flickr1&quot; /&gt; Click on Request an API Key. Then you will see : &lt;img src=&quot;http://inders.in/wp-content/uploads/2015/06/flickr2.png&quot; alt=&quot;flickr2&quot; /&gt; You can choose commercial or non-commercial depending upon your requirement. (I clicked on non-commercial).  You will see this: &lt;img src=&quot;http://inders.in/wp-content/uploads/2015/06/flickr3.png&quot; alt=&quot;flickr3&quot; /&gt; Fill up the detail and press submit. Voila. Here is the key. &lt;img src=&quot;http://inders.in/wp-content/uploads/2015/06/flickr4.png&quot; alt=&quot;flickr4&quot; /&gt;   That’s all we need from Flickr. We are basically fetching all albums of a flickr User. Now on to coding. First we need to create a blank ionic app.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ionic start flickr blank
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Open the www folder and then open js/app.js file and create state as follows:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.config(function($stateProvider, $urlRouterProvider){
+ $stateProvider
+  .state('index', {
+    url: '/',
+    templateUrl: 'templates/main.html',
+    controller: 'MainCtrl'
+  })
+  .state('album', {
+    url: '/album/:id',
+    templateUrl: 'templates/album.html',
+    controller: 'AlbumCtrl'
+  })
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;we have two states. one is index state which will list all albums of flickr user and album will list photos of each individual album. Now create a angular.value service for using Flickr API as follows :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.value('Flickr_data',{
+  key: 'bdbbafdc270d29a90c8dc33fac42e4a6',
+  endpoint: 'https://api.flickr.com/services/rest/',
+  user_id : '13455964@N02'
+})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here is the detail of above service:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;key: it is your api key.&lt;/li&gt;
+  &lt;li&gt;endpoint: it is the flickr API endpoint for accessing flickr services.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;user_id: it is the user_id we are going to use for fetching photosets(photo albums).
+In real world applications you might not hard-code the user_id in your applications. But rest of the idea will remain same. Now create a factory for fetching the photosets from Flickr for that particular User.&lt;/p&gt;
+
+    &lt;p&gt;.factory(‘Flickr’, function($http,$q,Flickr_data){
+	var result = {};&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// Getting List of Photoset in a user account.
+result.getPhotoSets = function() {
+	var url = Flickr_data.endpoint + 
+			  '?method=flickr.photosets.getList&amp;amp;api_key=' + Flickr_data.key +
+			  '&amp;amp;user_id=' + Flickr_data.user_id +
+			  '&amp;amp;format=json&amp;amp;nojsoncallback=1';
+
+	return $http.get(url);
+};
+
+return result; })
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In getPhotoSets function we are fetching the list of Photosets from Flickr and returning the promise by returning $http.get(url). Now open the index.html file and edit the body as follows :&lt;/p&gt;
+
+&lt;p&gt;Now create a MainCtrl as follows :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.controller('MainCtrl', function($scope,$ionicLoading,$state,Flickr){
+	$ionicLoading.show();
+
+	// Getting Photosets Detail from Flickr Service
+	Flickr.getPhotoSets().then(function(result){
+		$scope.photoList = result.data.photosets.photoset;
+		$ionicLoading.hide();
+	});
+
+        // Opening Album
+        $scope.openAlbum = function(photoset_id) {
+               $state.go('album',{id: photoset_id });
+        };
+
+})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here we are assigning the result of Flickr.getPhotoSets call to $scope.photoList which will contain the list of User’s PhotoSets(Photo Albums). $scope.openAlbum() function opens a album route with given photoset_id. Now we have to create a view for list of Photosets in ‘templates/main.html’. Here is the code :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     	__
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Save all the files and you will see app as follows : &lt;img src=&quot;http://inders.in/wp-content/uploads/2015/06/flickr5.png&quot; alt=&quot;flickr5&quot; /&gt; Next we have to display the pictures in these albums. But the problem with Flickr API is it is not really a REST API. Lets say If we need multiple pictures sizes for a photo and its detail then we have to make two HTTP calls to get those information. That is why Flickr API is really mess. But since we have power of angularjs with us. Here is what we will do now. We are creating two function inside our ‘Flickr’ Factory as follows :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// Getting Photos of a photo set
+result.getPhotos = function(photoset_id) {
+	var defer = $q.defer();
+
+	var url = Flickr_data.endpoint + 
+			  '?method=flickr.photosets.getPhotos&amp;amp;api_key=' + Flickr_data.key +
+			  '&amp;amp;user_id=' + Flickr_data.user_id +
+			  '&amp;amp;photoset_id=' + photoset_id +
+			  '&amp;amp;format=json&amp;amp;nojsoncallback=1';
+
+	
+	// Getting the Photos from a photoset
+	return $http.get(url)
+};
+
+// Getting Info for each photo.
+
+result.getInfo = function(id, secret) {
+	sizes =  Flickr_data.endpoint +
+					   '?method=flickr.photos.getSizes&amp;amp;api_key=' + Flickr_data.key +
+					   '&amp;amp;photo_id=' + id + '&amp;amp;format=json&amp;amp;nojsoncallback=1';
+
+	info = Flickr_data.endpoint + 
+					   '?method=flickr.photos.getInfo&amp;amp;api_key=' + Flickr_data.key +
+					   '&amp;amp;photo_id=' + id + '&amp;amp;secret=' + secret +
+					   '&amp;amp;format=json&amp;amp;nojsoncallback=1';
+	return $q.all([
+		$http.get(sizes),
+		$http.get(info)
+	]);	
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In Flickr API each photo has a id and secret. getPhotos(photoset_id) function fetches id,secret and other information of photos in a photosets. getInfo(id,secret) function fetches information about a particular photo by giving its id and secret and also gives various size information about the pic, which we can display in App. Both function return promises. Now we have to create ‘AlbumCtrl’ for displaying each album. It will look like below :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.controller('AlbumCtrl', function($scope,$ionicLoading,$stateParams,Flickr) {
+	$ionicLoading.show();
+		$scope.id = $stateParams.id;
+		$scope.photoList = [];
+
+		// Getting List of Photos from a Photoset
+		Flickr.getPhotos($scope.id).then(function(result){
+			$ionicLoading.hide();
+			console.log(result);
+			$scope.photos = result.data.photoset.photo;
+			$scope.title = result.data.photoset.title;
+
+			angular.forEach($scope.photos, function(photo,key) {
+				var id = photo.id;
+				var secret = photo.secret;
+				Flickr.getInfo(id,secret).then(function(result) {
+					$scope.photoList.push({sizes: result[0].data, info: result[1].data});
+					console.log($scope.photoList);
+
+				});
+			});
+
+		});
+})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We also have to create a view for album state in ‘templates/album.html’ file as follows :&lt;/p&gt;
+
+&lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#179&quot; title=&quot;2015-11-02 08:18:00&quot;&gt;Aditya Rakhmat&lt;/a&gt;:&lt;/strong&gt; hi.. i have follow this tutorial, but why can i see the image result in devices ? i can see it throught emulator and ionicview but when i go to my devices (i use android) it never finish loading. and i can click back button also.. do you experience this kind of problem? thanks&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#180&quot; title=&quot;2015-11-02 18:42:00&quot;&gt;musicalinder&lt;/a&gt;:&lt;/strong&gt; @adityarakhmat:disqus did you included cordova-whitelist-plugin?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#181&quot; title=&quot;2015-11-07 11:19:00&quot;&gt;Aditya Rakhmat&lt;/a&gt;:&lt;/strong&gt; ahh…. i know i missing something.. thanks it solved now..&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#196&quot; title=&quot;2016-11-02 06:14:00&quot;&gt;Anubhav Chitrey&lt;/a&gt;:&lt;/strong&gt; Hi, Thanks for the tutorial, I could easily implement it in my app. How can albums and images be cached in the app if device is offline?&lt;/p&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Hi Folks. Its been a long time since my last post. I was trying to put together what I have learned in previous couple of months about Angularjs and Ionic. In one of my previous app I used Flickr’s album(Photosets). So this post is all about Using Flickr’s Photo Albums in Ionic App. This is very minimal post. We will make a very small app. So lets get started. Before doing any coding stuff. We need Flickr API key from here : https://www.flickr.com/services/apps/create/apply/ You also need Yahoo Account for creating API Key.  Click on Request an API Key. Then you will see : You can choose commercial or non-commercial depending upon your requirement. (I clicked on non-commercial).  You will see this: Fill up the detail and press submit. Voila. Here is the key.   That’s all we need from Flickr. We are basically fetching all albums of a flickr User. Now on to coding. First we need to create a blank ionic app. ionic start flickr blank Open the www folder and then open js/app.js file and create state as follows: .config(function($stateProvider, $urlRouterProvider){ $stateProvider .state('index', { url: '/', templateUrl: 'templates/main.html', controller: 'MainCtrl' }) .state('album', { url: '/album/:id', templateUrl: 'templates/album.html', controller: 'AlbumCtrl' }) we have two states. one is index state which will list all albums of flickr user and album will list photos of each individual album. Now create a angular.value service for using Flickr API as follows : .value('Flickr_data',{ key: 'bdbbafdc270d29a90c8dc33fac42e4a6', endpoint: 'https://api.flickr.com/services/rest/', user_id : '13455964@N02' }) Here is the detail of above service: key: it is your api key. endpoint: it is the flickr API endpoint for accessing flickr services. user_id: it is the user_id we are going to use for fetching photosets(photo albums). In real world applications you might not hard-code the user_id in your applications. But rest of the idea will remain same. Now create a factory for fetching the photosets from Flickr for that particular User. .factory(‘Flickr’, function($http,$q,Flickr_data){ var result = {}; // Getting List of Photoset in a user account. result.getPhotoSets = function() { var url = Flickr_data.endpoint + '?method=flickr.photosets.getList&amp;amp;api_key=' + Flickr_data.key + '&amp;amp;user_id=' + Flickr_data.user_id + '&amp;amp;format=json&amp;amp;nojsoncallback=1'; return $http.get(url); }; return result; }) In getPhotoSets function we are fetching the list of Photosets from Flickr and returning the promise by returning $http.get(url). Now open the index.html file and edit the body as follows : Now create a MainCtrl as follows : .controller('MainCtrl', function($scope,$ionicLoading,$state,Flickr){ $ionicLoading.show(); // Getting Photosets Detail from Flickr Service Flickr.getPhotoSets().then(function(result){ $scope.photoList = result.data.photosets.photoset; $ionicLoading.hide(); }); // Opening Album $scope.openAlbum = function(photoset_id) { $state.go('album',{id: photoset_id }); }; }) Here we are assigning the result of Flickr.getPhotoSets call to $scope.photoList which will contain the list of User’s PhotoSets(Photo Albums). $scope.openAlbum() function opens a album route with given photoset_id. Now we have to create a view for list of Photosets in ‘templates/main.html’. Here is the code : __ Save all the files and you will see app as follows : Next we have to display the pictures in these albums. But the problem with Flickr API is it is not really a REST API. Lets say If we need multiple pictures sizes for a photo and its detail then we have to make two HTTP calls to get those information. That is why Flickr API is really mess. But since we have power of angularjs with us. Here is what we will do now. We are creating two function inside our ‘Flickr’ Factory as follows : // Getting Photos of a photo set result.getPhotos = function(photoset_id) { var defer = $q.defer(); var url = Flickr_data.endpoint + '?method=flickr.photosets.getPhotos&amp;amp;api_key=' + Flickr_data.key + '&amp;amp;user_id=' + Flickr_data.user_id + '&amp;amp;photoset_id=' + photoset_id + '&amp;amp;format=json&amp;amp;nojsoncallback=1'; // Getting the Photos from a photoset return $http.get(url) }; // Getting Info for each photo. result.getInfo = function(id, secret) { sizes = Flickr_data.endpoint + '?method=flickr.photos.getSizes&amp;amp;api_key=' + Flickr_data.key + '&amp;amp;photo_id=' + id + '&amp;amp;format=json&amp;amp;nojsoncallback=1'; info = Flickr_data.endpoint + '?method=flickr.photos.getInfo&amp;amp;api_key=' + Flickr_data.key + '&amp;amp;photo_id=' + id + '&amp;amp;secret=' + secret + '&amp;amp;format=json&amp;amp;nojsoncallback=1'; return $q.all([ $http.get(sizes), $http.get(info) ]); }; In Flickr API each photo has a id and secret. getPhotos(photoset_id) function fetches id,secret and other information of photos in a photosets. getInfo(id,secret) function fetches information about a particular photo by giving its id and secret and also gives various size information about the pic, which we can display in App. Both function return promises. Now we have to create ‘AlbumCtrl’ for displaying each album. It will look like below : .controller('AlbumCtrl', function($scope,$ionicLoading,$stateParams,Flickr) { $ionicLoading.show(); $scope.id = $stateParams.id; $scope.photoList = []; // Getting List of Photos from a Photoset Flickr.getPhotos($scope.id).then(function(result){ $ionicLoading.hide(); console.log(result); $scope.photos = result.data.photoset.photo; $scope.title = result.data.photoset.title; angular.forEach($scope.photos, function(photo,key) { var id = photo.id; var secret = photo.secret; Flickr.getInfo(id,secret).then(function(result) { $scope.photoList.push({sizes: result[0].data, info: result[1].data}); console.log($scope.photoList); }); }); }); }) We also have to create a view for album state in ‘templates/album.html’ file as follows : Comments Aditya Rakhmat: hi.. i have follow this tutorial, but why can i see the image result in devices ? i can see it throught emulator and ionicview but when i go to my devices (i use android) it never finish loading. and i can click back button also.. do you experience this kind of problem? thanks musicalinder: @adityarakhmat:disqus did you included cordova-whitelist-plugin? Aditya Rakhmat: ahh…. i know i missing something.. thanks it solved now.. Anubhav Chitrey: Hi, Thanks for the tutorial, I could easily implement it in my app. How can albums and images be cached in the app if device is offline?</summary></entry><entry><title type="html">Creating Ultimate Sidemenu Navigation for Ionic App.</title><link href="https://inders.in/inders.in/blog/2015/01/18/creating-ultimate-sidemenu-navigation-ionic-app.html" rel="alternate" type="text/html" title="Creating Ultimate Sidemenu Navigation for Ionic App." /><published>2015-01-18T00:00:00+01:00</published><updated>2015-01-18T00:00:00+01:00</updated><id>https://inders.in/inders.in/blog/2015/01/18/creating-ultimate-sidemenu-navigation-ionic-app</id><content type="html" xml:base="https://inders.in/inders.in/blog/2015/01/18/creating-ultimate-sidemenu-navigation-ionic-app.html">&lt;p&gt;One of important feature of Mobile App is its navigation system. So far best UI Element for creating navigation is sidemenus. Ionic as a framework is evolved so much but its default sidemenu is very simple.(Although my app still uses the default :p). In this post I am going to create a better sidemenu navigation system for Ionic Apps. These example enhanced version of &lt;a href=&quot;https://github.com/imsingh/ionic-ion-drawer&quot;&gt;ionic-drawer&lt;/a&gt; by @maxlynch of Ionic Framework. &lt;strong&gt;1.a&lt;/strong&gt; Link the drawer’s CSS and JS of ionic-drawer module and add that module to your app’s dependencies.&lt;/p&gt;
+
+&lt;p&gt;and add the drawer module to app’s dependencies.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;angular.module('ionicApp',['ionic','ionic.contrib.drawer'])
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;1.b&lt;/strong&gt; Now layout your Sidemenu in your html file. (This is basic code).&lt;/p&gt;
+
+&lt;p&gt;You will get something like shown below : &lt;img src=&quot;http://inders.in/wp-content/uploads/2015/01/ionic-drawer-full.png&quot; alt=&quot;ionic-drawer-full&quot; /&gt; &lt;a href=&quot;https://github.com/imsingh/ionic-drawer-demo&quot;&gt;Github Repo&lt;/a&gt; This is something good. But we can get sworkit like navigation. If you want Sworkit like SideMenu you have to tweak the css of drawer. &lt;strong&gt;2.a&lt;/strong&gt; Edit the drawer.css of the Github Repo and add top:44px; property to drawer’s css like below.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;drawer {
+  display: block;
+  position: fixed;
+  top:44px;
+  width: 270px;
+  height: 100%;
+  z-index: 100;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;2.b&lt;/strong&gt; Remove the Navigation button from drawer’s html because we won’t need it now. Like shown below :&lt;/p&gt;
+
+&lt;p&gt;The End result of this would be something like below:&lt;img src=&quot;http://inders.in/wp-content/uploads/2015/01/ionic-drawer1.png&quot; alt=&quot;ionic-drawer&quot; /&gt; Source Code of it is at &lt;a href=&quot;https://github.com/imsingh/ionic-sworkit-sidemenu&quot;&gt;Github repo&lt;/a&gt; Is it cool?. Probably good. But not very good. 3. For third version we are adding little animation. First we are creating a directive for toggling the Navigation. It is very simple.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.directive('drawerToggle', function() {
+  return {
+    restrict: 'A',
+    link: function($scope, $element, $attrs) {
+      var el = $element[0];
+      if($attrs.animate === &quot;true&quot;) {
+        $element.addClass('animate drawerToggle');
+      }
+      
+      $element.bind('click', function(){
+        if($attrs.animate === &quot;true&quot;) {
+          if($scope.toggleDrawer() === &quot;open&quot;) {
+            el.style.transform = el.style.webkitTransform = 'translate3d(' + -5 + 'px, 0, 0)';
+          } else {
+            el.style.transform = el.style.webkitTransform = 'translate3d(' + 0 + 'px, 0, 0)';
+          }   
+        } else {
+            $scope.toggleDrawer();
+        }
+      });
+    }
+  };
+})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;With this directive we are toggling the drawer and added some animation to the navigation button by adding animate class. You also need to add following css styles in your app.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.animate {
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+
+.drawerToggle {
+  right:25px;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;and also you have to put the animate=”true” attribute to your navigation button. Like Below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://imsingh.github.io/ionic-animated-drawer/&quot;&gt;Live Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Source Code of it is at &lt;a href=&quot;https://github.com/imsingh/ionic-animated-drawer&quot;&gt;Github repo&lt;/a&gt; This is all for now. Thanks for reading folks!&lt;/p&gt;
+
+&lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#7&quot; title=&quot;2015-01-22 18:35:00&quot;&gt;LorenH&lt;/a&gt;:&lt;/strong&gt; Nice work Indermohan! The mobile drawer menus are what attracted our company to the Ionic Framework initially. Your enhancements match the Android specs well. http://developer.android.com/design/patterns/navigation-drawer.html&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#8&quot; title=&quot;2015-04-15 20:48:00&quot;&gt;tno2007&lt;/a&gt;:&lt;/strong&gt; thanks so much, the ionic default drawer is very basic, i was looking how to style it better. personally i like the first picture’s style over the other.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#9&quot; title=&quot;2015-04-16 04:15:00&quot;&gt;musicalinder&lt;/a&gt;:&lt;/strong&gt; @tno2007:disqus It is good to see that my work is helpful to you. Thanks and Every one has their own preference. Use whatever you like.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#11&quot; title=&quot;2015-05-11 05:39:00&quot;&gt;ryan&lt;/a&gt;:&lt;/strong&gt; Hi I follow instructions step by step but I don’t get the result as you discribe. I linked drawer js and css, then I add sidemenu.html. But my view title doesn’t appear on sidebar. I checked html source. My html has many more class. Could you help me? I added my html belowed. It is different from your demo http://imsingh.github.io/ionic-animated-drawer/#/main&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#12&quot; title=&quot;2015-05-19 17:46:00&quot;&gt;musicalinder&lt;/a&gt;:&lt;/strong&gt; @disqus_2OaQMnlxx8:disqus Can you create a codepen and send link to my email at indermohansinghk7@gmail.com. I will be happy to help you. Thanks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#14&quot; title=&quot;2015-05-28 03:13:00&quot;&gt;kevin jose&lt;/a&gt;:&lt;/strong&gt; thank you so much for the share ..!! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#183&quot; title=&quot;2016-01-28 18:16:00&quot;&gt;piyush aggarwal&lt;/a&gt;:&lt;/strong&gt; How disable drawer on inner pages.. I want it to be enable on only on home page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#184&quot; title=&quot;2016-01-28 18:18:00&quot;&gt;piyush aggarwal&lt;/a&gt;:&lt;/strong&gt; How to close the drawer on clicking outside the drawer?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;#191&quot; title=&quot;2016-07-14 06:42:00&quot;&gt;Chirag thaker&lt;/a&gt;:&lt;/strong&gt; hi, nav drawer looks good. style is working but how to implement in live real app. means i added items but clicking on items does not open view&lt;/p&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">One of important feature of Mobile App is its navigation system. So far best UI Element for creating navigation is sidemenus. Ionic as a framework is evolved so much but its default sidemenu is very simple.(Although my app still uses the default :p). In this post I am going to create a better sidemenu navigation system for Ionic Apps. These example enhanced version of ionic-drawer by @maxlynch of Ionic Framework. 1.a Link the drawer’s CSS and JS of ionic-drawer module and add that module to your app’s dependencies. and add the drawer module to app’s dependencies. angular.module('ionicApp',['ionic','ionic.contrib.drawer']) 1.b Now layout your Sidemenu in your html file. (This is basic code). You will get something like shown below : Github Repo This is something good. But we can get sworkit like navigation. If you want Sworkit like SideMenu you have to tweak the css of drawer. 2.a Edit the drawer.css of the Github Repo and add top:44px; property to drawer’s css like below. drawer { display: block; position: fixed; top:44px; width: 270px; height: 100%; z-index: 100; } 2.b Remove the Navigation button from drawer’s html because we won’t need it now. Like shown below : The End result of this would be something like below: Source Code of it is at Github repo Is it cool?. Probably good. But not very good. 3. For third version we are adding little animation. First we are creating a directive for toggling the Navigation. It is very simple. .directive('drawerToggle', function() { return { restrict: 'A', link: function($scope, $element, $attrs) { var el = $element[0]; if($attrs.animate === &quot;true&quot;) { $element.addClass('animate drawerToggle'); } $element.bind('click', function(){ if($attrs.animate === &quot;true&quot;) { if($scope.toggleDrawer() === &quot;open&quot;) { el.style.transform = el.style.webkitTransform = 'translate3d(' + -5 + 'px, 0, 0)'; } else { el.style.transform = el.style.webkitTransform = 'translate3d(' + 0 + 'px, 0, 0)'; } } else { $scope.toggleDrawer(); } }); } }; }) With this directive we are toggling the drawer and added some animation to the navigation button by adding animate class. You also need to add following css styles in your app. .animate { -webkit-transition: 0.4s all ease-in-out; transition: 0.4s all ease-in-out; } .drawerToggle { right:25px; } and also you have to put the animate=”true” attribute to your navigation button. Like Below. Live Demo Source Code of it is at Github repo This is all for now. Thanks for reading folks! Comments LorenH: Nice work Indermohan! The mobile drawer menus are what attracted our company to the Ionic Framework initially. Your enhancements match the Android specs well. http://developer.android.com/design/patterns/navigation-drawer.html tno2007: thanks so much, the ionic default drawer is very basic, i was looking how to style it better. personally i like the first picture’s style over the other. musicalinder: @tno2007:disqus It is good to see that my work is helpful to you. Thanks and Every one has their own preference. Use whatever you like. ryan: Hi I follow instructions step by step but I don’t get the result as you discribe. I linked drawer js and css, then I add sidemenu.html. But my view title doesn’t appear on sidebar. I checked html source. My html has many more class. Could you help me? I added my html belowed. It is different from your demo http://imsingh.github.io/ionic-animated-drawer/#/main musicalinder: @disqus_2OaQMnlxx8:disqus Can you create a codepen and send link to my email at indermohansinghk7@gmail.com. I will be happy to help you. Thanks. kevin jose: thank you so much for the share ..!! :) piyush aggarwal: How disable drawer on inner pages.. I want it to be enable on only on home page. piyush aggarwal: How to close the drawer on clicking outside the drawer? Chirag thaker: hi, nav drawer looks good. style is working but how to implement in live real app. means i added items but clicking on items does not open view</summary></entry><entry><title type="html">Environment for Learning JavaScript</title><link href="https://inders.in/inders.in/blog/2014/11/10/environment-learning-javascript.html" rel="alternate" type="text/html" title="Environment for Learning JavaScript" /><published>2014-11-10T00:00:00+01:00</published><updated>2014-11-10T00:00:00+01:00</updated><id>https://inders.in/inders.in/blog/2014/11/10/environment-learning-javascript</id><content type="html" xml:base="https://inders.in/inders.in/blog/2014/11/10/environment-learning-javascript.html">&lt;p&gt;Sometimes it becomes very complicated for programmers to learn JavaScript if they follow traditional Environment. In Simple words, if you just want to learn JavaScript you don’t need to create a HTML File and Attach a JavaScript file to it and save and reload again and again for experimenting with code. Following are some easy ways to create a perfect environment for learning JavaScript.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Firefox way : If you are fan of Mozilla Firefox, then you have a good news. Firefox has a built in tool called &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Tools/Scratchpad&quot;&gt;Scratchpad&lt;/a&gt;. It allows you to type multiple lines of JavaScript code and see the output in Console. Click &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Tools/Scratchpad&quot;&gt;here&lt;/a&gt; for Official Page of Scratchpad.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chrome : If you are using Chrome, then you can still type multiple line of JavaScript code in Web Console. Instead of Pressing Enter, press Shift + Enter and you will get a newline for typing code and then press Enter for Running your code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;NodeJS: It is my personal Favorite. If you have nothing to do with Browser’s DOM and you are only experimenting with JavaScript Code. It is perhaps the best way for learning JavaScript.  You need to install &lt;a href=&quot;nodejs.org&quot;&gt;node.js&lt;/a&gt; in your system.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;type your code in a file say &lt;strong&gt;&lt;em&gt;index.js&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;run it with nodejs as _&lt;strong&gt;node index.js &lt;/strong&gt;_in command prompt.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can also use nodemon with nodejs for automatically reloading your JavaScript code when it changes.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;install nodemon with &lt;em&gt;&lt;strong&gt;npm install -g nodemon&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Type your code in a file say &lt;em&gt;&lt;strong&gt;index.js&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Instead of running it with node, run it with &lt;em&gt;&lt;strong&gt;nodemon index.js&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Sometimes it becomes very complicated for programmers to learn JavaScript if they follow traditional Environment. In Simple words, if you just want to learn JavaScript you don’t need to create a HTML File and Attach a JavaScript file to it and save and reload again and again for experimenting with code. Following are some easy ways to create a perfect environment for learning JavaScript. Firefox way : If you are fan of Mozilla Firefox, then you have a good news. Firefox has a built in tool called Scratchpad. It allows you to type multiple lines of JavaScript code and see the output in Console. Click here for Official Page of Scratchpad. Chrome : If you are using Chrome, then you can still type multiple line of JavaScript code in Web Console. Instead of Pressing Enter, press Shift + Enter and you will get a newline for typing code and then press Enter for Running your code. NodeJS: It is my personal Favorite. If you have nothing to do with Browser’s DOM and you are only experimenting with JavaScript Code. It is perhaps the best way for learning JavaScript.  You need to install node.js in your system. type your code in a file say index.js run it with nodejs as _node index.js _in command prompt. You can also use nodemon with nodejs for automatically reloading your JavaScript code when it changes. install nodemon with npm install -g nodemon Type your code in a file say index.js Instead of running it with node, run it with nodemon index.js</summary></entry><entry><title type="html">Structure of Sri Guru Granth Sahib Ji - A Deeper Info on Raga Structure.</title><link href="https://inders.in/inders.in/blog/2014/09/07/structure-sri-guru-granth-sahib-ji-deeper-info-raga-structure.html" rel="alternate" type="text/html" title="Structure of Sri Guru Granth Sahib Ji - A Deeper Info on Raga Structure." /><published>2014-09-07T00:00:00+02:00</published><updated>2014-09-07T00:00:00+02:00</updated><id>https://inders.in/inders.in/blog/2014/09/07/structure-sri-guru-granth-sahib-ji-deeper-info-raga-structure</id><content type="html" xml:base="https://inders.in/inders.in/blog/2014/09/07/structure-sri-guru-granth-sahib-ji-deeper-info-raga-structure.html">&lt;p&gt;Sri Guru Granth Sahib Ji is The Guru Ji of Sikh Path. The Holy Bani in Shri Guru Granth Sahib Ji is based on Ragas Structure. As a child I came to know that there are &lt;strong&gt;31&lt;/strong&gt; Ragas in Shri Guru Granth Sahib Ji. But it is a pure misconception. There are &lt;strong&gt;62&lt;/strong&gt; &lt;strong&gt;Ragas&lt;/strong&gt; in Sri Guru Granth Sahib Ji. To be more accurate there are &lt;strong&gt;31 Main Ragas&lt;/strong&gt;(Mukh Ragas) and 3&lt;strong&gt;1 Mixed Ragas&lt;/strong&gt;(Mishrat Ragas).&lt;/p&gt;
+
+&lt;p&gt;Main Motive of this blog post is to provide information that I got from Data Mining Sri Guru Granth Sahib Database. Following is a table which provide information about Bani in Each Raga by Bani Kartas for  &lt;strong&gt;31 Mixed Ragas&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find the detail of Bani Karta of &lt;strong&gt;31 Main Ragas&lt;/strong&gt; at &lt;a href=&quot;http://gurbani.inders.in/#/analytics/raag&quot;&gt;Gurbani App&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ਰਾਗ&lt;/th&gt;
+      &lt;th&gt;ਬਾਣੀ ਕਰਤਾ&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਗੁਅਾਰੇਰੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਭਗਤ ਕਬੀਰ ਜੀ, ਭਗਤ ਰਵਿਦਾਸ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਦਖਣੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਚੇਤੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਭਗਤ ਨਾਮਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਬੈਰਾਗਣਿ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਭਗਤ ਕਬੀਰ ਜੀ, ਭਗਤ ਰਵਿਦਾਸ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਦੀਪਕੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਪੂਰਬੀ ਦੀਪਕੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਪੂਰਬੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਭਗਤ ਕਬੀਰ ਜੀ, ਭਗਤ ਰਵਿਦਾਸ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਮਾਝ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ,ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਮਾਲਵਾ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਮਾਲਾ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਗੳੁੜੀ ਸੋਰਠਿ&lt;/td&gt;
+      &lt;td&gt;ਭਗਤ ਕਬੀਰ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਅਾਸਾ ਕਾਫੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਅਾਸਾਵਰੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਅਾਸਾਵਰੀ ਸੁਧੰਗ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਦੇਵਗੰਧਾਰ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਵਡਹੰਸ ਦਖਣੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਤਿਲੰਗ ਕਾਫੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਸੂਹੀ ਕਾਫੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਸੂਹੀ ਲਲਿਤ&lt;/td&gt;
+      &lt;td&gt;ਭਗਤ ਕਬੀਰ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਬਿਲਾਵਲ ਦਖਣੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਬਿਲਾਵਲ ਮੰਗਲ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਬਿਲਾਵਲ ਗੋਂਡ&lt;/td&gt;
+      &lt;td&gt;ਭਗਤ ਨਾਮਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਰਾਮਕਲੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਨਟੁ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਮਾਰੂ ਕਾਫੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਮਾਰੂ ਦਖਣੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਬਸੰਤ ਹਿੰਡੋਲ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਕਲਿਅਾਣ ਭੁਪਾਲੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਪ੍ਰਭਾਤੀ ਬਿਭਾਸ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਬਿਭਾਸ ਪ੍ਰਭਾਤੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ,ਭਗਤ ਕਬੀਰ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ਰਾਗ ਪ੍ਰਭਾਤੀ ਦਖਣੀ&lt;/td&gt;
+      &lt;td&gt;ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Sri Guru Granth Sahib Ji is The Guru Ji of Sikh Path. The Holy Bani in Shri Guru Granth Sahib Ji is based on Ragas Structure. As a child I came to know that there are 31 Ragas in Shri Guru Granth Sahib Ji. But it is a pure misconception. There are 62 Ragas in Sri Guru Granth Sahib Ji. To be more accurate there are 31 Main Ragas(Mukh Ragas) and 31 Mixed Ragas(Mishrat Ragas). Main Motive of this blog post is to provide information that I got from Data Mining Sri Guru Granth Sahib Database. Following is a table which provide information about Bani in Each Raga by Bani Kartas for  31 Mixed Ragas. You can find the detail of Bani Karta of 31 Main Ragas at Gurbani App. ਰਾਗ ਬਾਣੀ ਕਰਤਾ ਰਾਗ ਗੳੁੜੀ ਗੁਅਾਰੇਰੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਭਗਤ ਕਬੀਰ ਜੀ, ਭਗਤ ਰਵਿਦਾਸ ਜੀ ਰਾਗ ਗੳੁੜੀ ਦਖਣੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਗੳੁੜੀ ਚੇਤੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਭਗਤ ਨਾਮਦੇਵ ਜੀ ਰਾਗ ਗੳੁੜੀ ਬੈਰਾਗਣਿ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਭਗਤ ਕਬੀਰ ਜੀ, ਭਗਤ ਰਵਿਦਾਸ ਜੀ ਰਾਗ ਗੳੁੜੀ ਦੀਪਕੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਗੳੁੜੀ ਪੂਰਬੀ ਦੀਪਕੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਗੳੁੜੀ ਪੂਰਬੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਭਗਤ ਕਬੀਰ ਜੀ, ਭਗਤ ਰਵਿਦਾਸ ਜੀ ਰਾਗ ਗੳੁੜੀ ਮਾਝ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ,ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਗੳੁੜੀ ਮਾਲਵਾ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਗੳੁੜੀ ਮਾਲਾ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਗੳੁੜੀ ਸੋਰਠਿ ਭਗਤ ਕਬੀਰ ਜੀ ਰਾਗ ਅਾਸਾ ਕਾਫੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਅਾਸਾਵਰੀ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਅਾਸਾਵਰੀ ਸੁਧੰਗ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਰਾਗ ਦੇਵਗੰਧਾਰ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਵਡਹੰਸ ਦਖਣੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਤਿਲੰਗ ਕਾਫੀ ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਜੀ ਰਾਗ ਸੂਹੀ ਕਾਫੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਸੂਹੀ ਲਲਿਤ ਭਗਤ ਕਬੀਰ ਜੀ ਰਾਗ ਬਿਲਾਵਲ ਦਖਣੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਬਿਲਾਵਲ ਮੰਗਲ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਬਿਲਾਵਲ ਗੋਂਡ ਭਗਤ ਨਾਮਦੇਵ ਜੀ ਰਾਗ ਰਾਮਕਲੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਨਟੁ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਮਾਰੂ ਕਾਫੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਮਾਰੂ ਦਖਣੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਰਾਗ ਬਸੰਤ ਹਿੰਡੋਲ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ, ਗੁਰੂ ਤੇਗ ਬਹਾਦਰ ਜੀ ਰਾਗ ਕਲਿਅਾਣ ਭੁਪਾਲੀ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਰਾਗ ਪ੍ਰਭਾਤੀ ਬਿਭਾਸ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ, ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ, ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ, ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ਰਾਗ ਬਿਭਾਸ ਪ੍ਰਭਾਤੀ ਗੁਰੂ ਅਰਜਨ ਦੇਵ ਜੀ ,ਭਗਤ ਕਬੀਰ ਜੀ ਰਾਗ ਪ੍ਰਭਾਤੀ ਦਖਣੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ</summary></entry><entry><title type="html">Node.js Blueprint - A Gem for Web Developers.</title><link href="https://inders.in/inders.in/blog/2014/07/29/node-js-blueprint-gem-web-developers.html" rel="alternate" type="text/html" title="Node.js Blueprint - A Gem for Web Developers." /><published>2014-07-29T00:00:00+02:00</published><updated>2014-07-29T00:00:00+02:00</updated><id>https://inders.in/inders.in/blog/2014/07/29/node-js-blueprint-gem-web-developers</id><content type="html" xml:base="https://inders.in/inders.in/blog/2014/07/29/node-js-blueprint-gem-web-developers.html">&lt;p&gt;Recently I got a copy of Krasimir Tsonev’s new Book &lt;a href=&quot;http://www.packtpub.com/nodejs-blueprints/book&quot;&gt;Node.js Blueprints&lt;/a&gt; by PacketPub.  I started reading book 14 days ago. It was pleasure for me. It helped me in learning lots of things. Apart from Node.js I got glimpses of other JS frameworks Like AngularJS (I am using AngularJS for Long Time), Backbone.js, Ember.js,Socket.io, Express.js, grunt.js,gulp.js to name a few.&lt;/p&gt;
+
+&lt;p&gt;Krasimir’s Approach is very lucid. The way he introduces new stuff to reader is very good. Most of all I like the Structure of Book. He introduces the book with design patterns, which surely gonna help new node.js learners. Guiding Intermediate programmers about structure of app in very first chapter is very good idea. When I started learning nodejs the most import issue was building an app with good structure.&lt;/p&gt;
+
+&lt;p&gt;Node.js Blueprint is a gem for Web Developers who want to Learn Node.js for Web and Desktop Application. Book has 268 Pages divided in 12 Chapters which covers important things like&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Structuring big applications (Chapter 1)&lt;/li&gt;
+  &lt;li&gt;developing web apps with express.js and node.js (Chapter 2)&lt;/li&gt;
+  &lt;li&gt;using node.js with angular.js (Chapter 3)&lt;/li&gt;
+  &lt;li&gt;using socket.io with node.js to create real time apps (Chapter 4)&lt;/li&gt;
+  &lt;li&gt;using backbone.js with node.js (Chapter 5)&lt;/li&gt;
+  &lt;li&gt;using node.js with ember.js (Chapter 7)&lt;/li&gt;
+  &lt;li&gt;Automate Development with Grunt.js and Gulp.js (Chapter 8)&lt;/li&gt;
+  &lt;li&gt;focus on test-driven development and (Chapter 9)&lt;/li&gt;
+  &lt;li&gt;a neat example of REST API. (Chapter 11)&lt;/li&gt;
+  &lt;li&gt;creating Desktop apps with node.js and node-webkit (Chapter 12)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For me Chapter 1,4,11 and 12 are bliss. But other chapters are also commendable. It was pleasure to learn how to structure your code.  His introduction to AngularJS is very brief and good and the way he used two databases for blog application with Angular.js and node.js in chapter 3rd is great. Again for me it was new experience to learn socket.io(Chapter 4) and then creating a real chat application with it. Introduction to Desktop development with Node.js and Using REST API are very good. In fact I am almost near to complete Desktop app for my Mobile App &lt;a href=&quot;https://ragakosh.com&quot;&gt;Ragakosh&lt;/a&gt;. I had never written any tests for my application. But know I am using test driven development as integral part of development.&lt;/p&gt;
+
+&lt;p&gt;I would surely recommend this book to every Javascript Developer who wants to learn node.js in good way.&lt;/p&gt;</content><author><name>Indermohan Singh</name></author><category term="blog" /><summary type="html">Recently I got a copy of Krasimir Tsonev’s new Book Node.js Blueprints by PacketPub.  I started reading book 14 days ago. It was pleasure for me. It helped me in learning lots of things. Apart from Node.js I got glimpses of other JS frameworks Like AngularJS (I am using AngularJS for Long Time), Backbone.js, Ember.js,Socket.io, Express.js, grunt.js,gulp.js to name a few. Krasimir’s Approach is very lucid. The way he introduces new stuff to reader is very good. Most of all I like the Structure of Book. He introduces the book with design patterns, which surely gonna help new node.js learners. Guiding Intermediate programmers about structure of app in very first chapter is very good idea. When I started learning nodejs the most import issue was building an app with good structure. Node.js Blueprint is a gem for Web Developers who want to Learn Node.js for Web and Desktop Application. Book has 268 Pages divided in 12 Chapters which covers important things like Structuring big applications (Chapter 1) developing web apps with express.js and node.js (Chapter 2) using node.js with angular.js (Chapter 3) using socket.io with node.js to create real time apps (Chapter 4) using backbone.js with node.js (Chapter 5) using node.js with ember.js (Chapter 7) Automate Development with Grunt.js and Gulp.js (Chapter 8) focus on test-driven development and (Chapter 9) a neat example of REST API. (Chapter 11) creating Desktop apps with node.js and node-webkit (Chapter 12) For me Chapter 1,4,11 and 12 are bliss. But other chapters are also commendable. It was pleasure to learn how to structure your code.  His introduction to AngularJS is very brief and good and the way he used two databases for blog application with Angular.js and node.js in chapter 3rd is great. Again for me it was new experience to learn socket.io(Chapter 4) and then creating a real chat application with it. Introduction to Desktop development with Node.js and Using REST API are very good. In fact I am almost near to complete Desktop app for my Mobile App Ragakosh. I had never written any tests for my application. But know I am using test driven development as integral part of development. I would surely recommend this book to every Javascript Developer who wants to learn node.js in good way.</summary></entry></feed>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Introduction to Ionic 2 - inders.in
+    
+  </title>
+
+  <meta name="description" content="Hi Friends. I am back with a special blog post about the upcoming version of Ionic framework,  Ionic v2. Ionic v2 is now publicly released. I was lucky enoug...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/inders.in/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/inders.in/assets/vendor/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/inders.in/assets/main.css">
+  <link rel="canonical" href="https://inders.in/inders.in/blog/2015/10/28/introduction-to-ionic-2.html">
+  <link rel="alternate" type="application/rss+xml" title="inders.in" href="/inders.in/feed.xml">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/inders.in/">inders.in</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/about">About</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/inders.in/posts">Posts</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/work">Work</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+<header class="masthead">
+
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>Introduction to Ionic 2</h1>
+          
+          <h2 class="subheading">Basics of Ionic with Angular</h2>
+          
+          <span class="meta">Posted by
+            <a href="#">Indermohan Singh</a>
+            on October 28, 2015</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      <p>Hi Friends. I am back with a special blog post about the upcoming version of Ionic framework,  Ionic v2. Ionic v2 is now publicly released. I was lucky enough to try the ionic v2 before it’s public launch. So this post is my experience with Ionic v2 and also and introduction to new framework. 
+<!--more--></p>
+
+<p>In this blog post, I am going to discuss the very basic of Ionic app and what is happening in your app and little differences between angular 2 and ionic 2 apps. So let’s get started.</p>
+
+<p>Ionic 2 is built on the top of <strong>Angular 2</strong>, <strong>TypeScript</strong>. So,this is a total change in terms of development. We don’t have $scope, ng-controllers, angular 1.x services and things that were part of ionic v1. Now we have totally new development stuff. Ionic 2 Allows ynou to write your applications in either <strong>ES6</strong>(ECMAScript 6) or TypeScript (Superset of JavaScript). So we now have to deal with stuff like Classes, Decorators, ES6 Modules, Arrow functions, block scope.</p>
+
+<p>Since Ionic 2 is built on top of Angular 2, so we are basically developing angular 2 apps, but with some differences. Let’s first see a typical Angular 2 app.</p>
+
+<h2 id="angular-2">Angular 2</h2>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span><span class="nx">Component</span><span class="p">,</span> <span class="nx">bootstrap</span><span class="p">}</span> <span class="k">from</span> <span class="s1">'@angular/core'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span><span class="nx">MyServices</span><span class="p">,</span> <span class="nx">MyDirectives</span><span class="p">}</span> <span class="k">from</span> <span class="s1">'myapp'</span><span class="p">;</span>
+
+<span class="p">@</span><span class="nd">Component</span><span class="p">({</span>
+  <span class="na">selector</span><span class="p">:</span> <span class="s1">'my-component'</span><span class="p">,</span>
+  <span class="na">template</span><span class="p">:</span> <span class="s1">'Hello, '</span><span class="p">,</span>
+  <span class="na">directives</span><span class="p">:</span> <span class="p">[</span><span class="nx">MyDirectives</span><span class="p">]</span>
+<span class="p">})</span>
+<span class="k">export</span> <span class="kd">class</span> <span class="nx">MyComponent</span> <span class="p">{</span>
+  <span class="kd">constructor</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="s1">'Max'</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">bootstrap</span><span class="p">(</span><span class="nx">MyComponent</span><span class="p">,</span> <span class="p">[</span><span class="nx">MyServices</span><span class="p">]);</span>
+</code></pre></div></div>
+
+<p>First we are importing stuff like Component and bootstrap from ‘@angular/core’ module. Every angular 2 apps is centered around Components. Components are UI Elements, which consist of two parts : Component Annotation and Component Controller. We can have components inside our component. So angular 2 apps are tree of components.</p>
+
+<ul>
+  <li>
+    <p><strong>@Component</strong> annotation tells about the selector of our component. In this case, it is <strong>my-component, </strong>and we also have to inject the services required by the component using <strong>providers **key inside component or during</strong> bootstrap. <strong>We also have to Inject the directives that we are using in this component by using **directives </strong>property. In this case, <strong>MyDirective </strong>is the directive that we are using in this component.</p>
+  </li>
+  <li>
+    <p><strong>class</strong> is basically the <strong>controller</strong> of our component, through which we are controlling the behavior of our Component.</p>
+  </li>
+  <li>
+    <p>At Last, we are bootstraping our applications manually by using <strong>bootstrap</strong>.We are also injecting our service <strong>MyServices</strong> in bootstrap.</p>
+  </li>
+</ul>
+
+<p>When we use the tag in our HTML, this component will be created,our constructor called, and rendered.</p>
+
+<p>You can easily notice, that it is very different from angular 1 applications. In Angular 1, we start from <strong>ng-app</strong>, which also automatically bootstrap our applications. We also don’t have <strong>angular.module</strong> system.</p>
+
+<h1 id="ionic-2">Ionic 2</h1>
+
+<p>Now we have created the ground for explaining a basic Ionic 2 App. Let’s move to Ionic 2.</p>
+
+<p>Best way to getting started with Ionic 2 is using ionic-cli. Follow this installation Guide by ionic team <a href="http://ionicframework.com/docs/v2/getting-started/installation/">http://ionicframework.com/docs/v2/getting-started/installation/</a>.</p>
+
+<p>But understanding what is happening in the app is very important.</p>
+
+<h2 id="a-basic-app">A Basic App</h2>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span><span class="nx">ionicBootstrap</span><span class="p">}</span> <span class="k">from</span> <span class="s1">'ionic-angular'</span><span class="p">;</span>
+<span class="k">import</span> <span class="p">{</span><span class="nx">Component</span><span class="p">}</span> <span class="k">from</span> <span class="s1">'@angular/core'</span><span class="p">;</span>
+<span class="p">@</span><span class="nd">Component</span><span class="p">({</span>
+  <span class="na">templateUrl</span><span class="p">:</span> <span class="s1">'templates/main.html'</span>
+<span class="p">})</span>
+<span class="kd">class</span> <span class="nx">MyApp</span> <span class="p">{</span>
+  <span class="kd">constructor</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="s1">'Max'</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">ionicBoostrap</span><span class="p">(</span><span class="nx">MyApp</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Woah? Where is selector on component? How this class gonna match to element on View? That was my first reaction.</p>
+
+<p><strong>ionicBootstrap **basically, select a hard-coded root element named as **ion-app. </strong> That’s why there is no selector on <strong>@Component</strong><strong>. </strong>Initially Ionic team was doing this using Custom Decorators like** @App <strong>and </strong>@Page. **You can still select use any custom root selector of your choice. Just put that in @Component Decorator. ionicBootstrap also inject various things automatically for you. Like FORM_PROVIDERS, IONIC_DIRECTIVES, HTTP_PROVIDERS. It also makes your app styling matched to the platform, it is running.</p>
+
+<p>If you have any external Services and Directives. You have to include these as mentioned in angular 2 section.</p>
+
+<p>For more information go to <a href="http://v2.ionic.io">http://ionicframework.com/docs/v2</a> .This is all about the introduction to Ionic 2 for today. Stay tuned for Upcoming Ionic 2 post in this series.</p>
+
+
+      <hr>
+
+      <div class="clearfix">
+
+        
+        <a class="btn btn-primary float-left" href="/inders.in/blog/2015/08/01/writing-javascript-in-es6-for-todays-world.html" data-toggle="tooltip" data-placement="top" title="Writing JavaScript in ES6 for today's world.">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        
+        
+        <a class="btn btn-primary float-right" href="/inders.in/blog/2016/02/12/creating-radio-player-with-ionic-2-and-html5.html" data-toggle="tooltip" data-placement="top" title="Creating Radio Player with Ionic 2 and HTML 5">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com/imsinghk7">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/imsingh">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Indermohan Singh 2018</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/inders.in/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/inders.in/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/inders.in/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/inders.in/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>

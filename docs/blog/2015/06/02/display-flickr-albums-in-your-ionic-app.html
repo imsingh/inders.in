@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Display Flickr Albums in your Ionic App. - inders.in
+    
+  </title>
+
+  <meta name="description" content="Hi Folks. Its been a long time since my last post. I was trying to put together what I have learned in previous couple of months about Angularjs and Ionic. I...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/inders.in/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/inders.in/assets/vendor/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="/inders.in/assets/main.css">
+  <link rel="canonical" href="https://inders.in/inders.in/blog/2015/06/02/display-flickr-albums-in-your-ionic-app.html">
+  <link rel="alternate" type="application/rss+xml" title="inders.in" href="/inders.in/feed.xml">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/inders.in/">inders.in</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/about">About</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/inders.in/posts">Posts</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="/inders.in/work">Work</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+<header class="masthead">
+
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>Display Flickr Albums in your Ionic App.</h1>
+          
+          <span class="meta">Posted by
+            <a href="#">Indermohan Singh</a>
+            on June 02, 2015</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      <p>Hi Folks. Its been a long time since my last post. I was trying to put together what I have learned in previous couple of months about Angularjs and Ionic. In one of my previous app I used Flickr’s album(Photosets). So this post is all about Using Flickr’s Photo Albums in Ionic App. This is very minimal post. We will make a very small app. So lets get started. Before doing any coding stuff. We need Flickr API key from here : <a href="https://www.flickr.com/services/apps/create/apply/">https://www.flickr.com/services/apps/create/apply/</a> You also need Yahoo Account for creating API Key. <img src="http://inders.in/wp-content/uploads/2015/06/Flickr1.png" alt="Flickr1" /> Click on Request an API Key. Then you will see : <img src="http://inders.in/wp-content/uploads/2015/06/flickr2.png" alt="flickr2" /> You can choose commercial or non-commercial depending upon your requirement. (I clicked on non-commercial).  You will see this: <img src="http://inders.in/wp-content/uploads/2015/06/flickr3.png" alt="flickr3" /> Fill up the detail and press submit. Voila. Here is the key. <img src="http://inders.in/wp-content/uploads/2015/06/flickr4.png" alt="flickr4" />   That’s all we need from Flickr. We are basically fetching all albums of a flickr User. Now on to coding. First we need to create a blank ionic app.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ionic start flickr blank
+</code></pre></div></div>
+
+<p>Open the www folder and then open js/app.js file and create state as follows:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.config(function($stateProvider, $urlRouterProvider){
+ $stateProvider
+  .state('index', {
+    url: '/',
+    templateUrl: 'templates/main.html',
+    controller: 'MainCtrl'
+  })
+  .state('album', {
+    url: '/album/:id',
+    templateUrl: 'templates/album.html',
+    controller: 'AlbumCtrl'
+  })
+</code></pre></div></div>
+
+<p>we have two states. one is index state which will list all albums of flickr user and album will list photos of each individual album. Now create a angular.value service for using Flickr API as follows :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.value('Flickr_data',{
+  key: 'bdbbafdc270d29a90c8dc33fac42e4a6',
+  endpoint: 'https://api.flickr.com/services/rest/',
+  user_id : '13455964@N02'
+})
+</code></pre></div></div>
+
+<p>Here is the detail of above service:</p>
+
+<ul>
+  <li>key: it is your api key.</li>
+  <li>endpoint: it is the flickr API endpoint for accessing flickr services.</li>
+  <li>
+    <p>user_id: it is the user_id we are going to use for fetching photosets(photo albums).
+In real world applications you might not hard-code the user_id in your applications. But rest of the idea will remain same. Now create a factory for fetching the photosets from Flickr for that particular User.</p>
+
+    <p>.factory(‘Flickr’, function($http,$q,Flickr_data){
+	var result = {};</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Getting List of Photoset in a user account.
+result.getPhotoSets = function() {
+	var url = Flickr_data.endpoint + 
+			  '?method=flickr.photosets.getList&amp;api_key=' + Flickr_data.key +
+			  '&amp;user_id=' + Flickr_data.user_id +
+			  '&amp;format=json&amp;nojsoncallback=1';
+
+	return $http.get(url);
+};
+
+return result; })
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>In getPhotoSets function we are fetching the list of Photosets from Flickr and returning the promise by returning $http.get(url). Now open the index.html file and edit the body as follows :</p>
+
+<p>Now create a MainCtrl as follows :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.controller('MainCtrl', function($scope,$ionicLoading,$state,Flickr){
+	$ionicLoading.show();
+
+	// Getting Photosets Detail from Flickr Service
+	Flickr.getPhotoSets().then(function(result){
+		$scope.photoList = result.data.photosets.photoset;
+		$ionicLoading.hide();
+	});
+
+        // Opening Album
+        $scope.openAlbum = function(photoset_id) {
+               $state.go('album',{id: photoset_id });
+        };
+
+})
+</code></pre></div></div>
+
+<p>Here we are assigning the result of Flickr.getPhotoSets call to $scope.photoList which will contain the list of User’s PhotoSets(Photo Albums). $scope.openAlbum() function opens a album route with given photoset_id. Now we have to create a view for list of Photosets in ‘templates/main.html’. Here is the code :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     	__
+</code></pre></div></div>
+
+<p>Save all the files and you will see app as follows : <img src="http://inders.in/wp-content/uploads/2015/06/flickr5.png" alt="flickr5" /> Next we have to display the pictures in these albums. But the problem with Flickr API is it is not really a REST API. Lets say If we need multiple pictures sizes for a photo and its detail then we have to make two HTTP calls to get those information. That is why Flickr API is really mess. But since we have power of angularjs with us. Here is what we will do now. We are creating two function inside our ‘Flickr’ Factory as follows :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Getting Photos of a photo set
+result.getPhotos = function(photoset_id) {
+	var defer = $q.defer();
+
+	var url = Flickr_data.endpoint + 
+			  '?method=flickr.photosets.getPhotos&amp;api_key=' + Flickr_data.key +
+			  '&amp;user_id=' + Flickr_data.user_id +
+			  '&amp;photoset_id=' + photoset_id +
+			  '&amp;format=json&amp;nojsoncallback=1';
+
+	
+	// Getting the Photos from a photoset
+	return $http.get(url)
+};
+
+// Getting Info for each photo.
+
+result.getInfo = function(id, secret) {
+	sizes =  Flickr_data.endpoint +
+					   '?method=flickr.photos.getSizes&amp;api_key=' + Flickr_data.key +
+					   '&amp;photo_id=' + id + '&amp;format=json&amp;nojsoncallback=1';
+
+	info = Flickr_data.endpoint + 
+					   '?method=flickr.photos.getInfo&amp;api_key=' + Flickr_data.key +
+					   '&amp;photo_id=' + id + '&amp;secret=' + secret +
+					   '&amp;format=json&amp;nojsoncallback=1';
+	return $q.all([
+		$http.get(sizes),
+		$http.get(info)
+	]);	
+};
+</code></pre></div></div>
+
+<p>In Flickr API each photo has a id and secret. getPhotos(photoset_id) function fetches id,secret and other information of photos in a photosets. getInfo(id,secret) function fetches information about a particular photo by giving its id and secret and also gives various size information about the pic, which we can display in App. Both function return promises. Now we have to create ‘AlbumCtrl’ for displaying each album. It will look like below :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.controller('AlbumCtrl', function($scope,$ionicLoading,$stateParams,Flickr) {
+	$ionicLoading.show();
+		$scope.id = $stateParams.id;
+		$scope.photoList = [];
+
+		// Getting List of Photos from a Photoset
+		Flickr.getPhotos($scope.id).then(function(result){
+			$ionicLoading.hide();
+			console.log(result);
+			$scope.photos = result.data.photoset.photo;
+			$scope.title = result.data.photoset.title;
+
+			angular.forEach($scope.photos, function(photo,key) {
+				var id = photo.id;
+				var secret = photo.secret;
+				Flickr.getInfo(id,secret).then(function(result) {
+					$scope.photoList.push({sizes: result[0].data, info: result[1].data});
+					console.log($scope.photoList);
+
+				});
+			});
+
+		});
+})
+</code></pre></div></div>
+
+<p>We also have to create a view for album state in ‘templates/album.html’ file as follows :</p>
+
+<h2 id="comments">Comments</h2>
+
+<p><strong><a href="#179" title="2015-11-02 08:18:00">Aditya Rakhmat</a>:</strong> hi.. i have follow this tutorial, but why can i see the image result in devices ? i can see it throught emulator and ionicview but when i go to my devices (i use android) it never finish loading. and i can click back button also.. do you experience this kind of problem? thanks</p>
+
+<p><strong><a href="#180" title="2015-11-02 18:42:00">musicalinder</a>:</strong> @adityarakhmat:disqus did you included cordova-whitelist-plugin?</p>
+
+<p><strong><a href="#181" title="2015-11-07 11:19:00">Aditya Rakhmat</a>:</strong> ahh…. i know i missing something.. thanks it solved now..</p>
+
+<p><strong><a href="#196" title="2016-11-02 06:14:00">Anubhav Chitrey</a>:</strong> Hi, Thanks for the tutorial, I could easily implement it in my app. How can albums and images be cached in the app if device is offline?</p>
+
+
+
+      <hr>
+
+      <div class="clearfix">
+
+        
+        <a class="btn btn-primary float-left" href="/inders.in/blog/2015/01/18/creating-ultimate-sidemenu-navigation-ionic-app.html" data-toggle="tooltip" data-placement="top" title="Creating Ultimate Sidemenu Navigation for Ionic App.">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        
+        
+        <a class="btn btn-primary float-right" href="/inders.in/blog/2015/06/20/support-me-to-reach-at-mit-entrepreneurship-bootcamp.html" data-toggle="tooltip" data-placement="top" title="Support young entrepreneur to reach MIT Entrepreneurship Bootcamp">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com/imsinghk7">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/imsingh">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Indermohan Singh 2018</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/inders.in/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/inders.in/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/inders.in/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/inders.in/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>
