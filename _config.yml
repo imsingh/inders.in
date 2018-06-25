@@ -3,7 +3,7 @@ center_title:      INDERS.IN
 email:             indermohansinghk7@gmail.com
 description:       CODE | MUSIC
 author:            Indermohan Singh
-baseurl:           ""
+baseurl:           "https://imsingh.github.io/blog/"
 url:               "https://inders.in"
 excerpt_separator: '<!-- more -->'
 encoding: utf-8
