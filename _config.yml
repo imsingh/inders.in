@@ -1,17 +1,22 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+title:             inders.in
+center_title:      INDERS.IN
+email:             indermohansinghk7@gmail.com
+description:       CODE | MUSIC
+author:            Indermohan Singh
+baseurl:           ""
+url:               "https://inders.in"
+excerpt_separator: '<!-- more -->'
+encoding: utf-8
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username:  imsinghk7
+github_username:   imsingh
+facebook_username:
 
 # Build settings
-markdown:          kramdown
+markdown: kramdown
+highlighter: rouge
+
 paginate:          5
 paginate_path:     "/posts/page:num/"
 plugins:
