@@ -17,13 +17,13 @@
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="stylesheet" href="/inders.in/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="/inders.in/assets/vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="/inders.in/assets/main.css">
-  <link rel="canonical" href="https://inders.in/inders.in/blog/2015/06/02/display-flickr-albums-in-your-ionic-app.html">
-  <link rel="alternate" type="application/rss+xml" title="inders.in" href="/inders.in/feed.xml">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/blog/2015/06/02/display-flickr-albums-in-your-ionic-app.html">
+  <link rel="alternate" type="application/rss+xml" title="inders.in" href="/feed.xml">
 </head>
 
 
@@ -32,7 +32,7 @@
     <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand" href="/inders.in/">inders.in</a>
+    <a class="navbar-brand" href="/">inders.in</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i class="fa fa-bars"></i>
@@ -40,16 +40,16 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="/inders.in/">Blog</a>
+          <a class="nav-link" href="/">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/inders.in/about">About</a>
+          <a class="nav-link" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/inders.in/work">Work</a>
+          <a class="nav-link" href="/work">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/inders.in/contact">Contact</a>
+          <a class="nav-link" href="/contact">Contact</a>
         </li> 
       </ul>
     </div>
@@ -87,13 +87,13 @@
 
 <p>Before doing any coding stuff. We need to configure Flickr.</p>
 
-<p>Flickr API key from here : <a href="https://www.flickr.com/services/apps/create/apply/">https://www.flickr.com/services/apps/create/apply/</a> You also need Yahoo Account for creating API Key. <img src="/inders.in/img/posts/flickr1.png" alt="Flickr1" class="img-fluid" /> Click on Request an API Key.</p>
+<p>Flickr API key from here : <a href="https://www.flickr.com/services/apps/create/apply/">https://www.flickr.com/services/apps/create/apply/</a> You also need Yahoo Account for creating API Key. <img src="/img/posts/flickr1.png" alt="Flickr1" class="img-fluid" /> Click on Request an API Key.</p>
 
-<p>Then you will see : <img src="/inders.in/img/posts/flickr2.png" alt="Flickr2" class="img-fluid" /> You can choose commercial or non-commercial depending upon your requirement. (I clicked on non-commercial).  </p>
+<p>Then you will see : <img src="/img/posts/flickr2.png" alt="Flickr2" class="img-fluid" /> You can choose commercial or non-commercial depending upon your requirement. (I clicked on non-commercial).  </p>
 
-<p>You will see this: <img src="/inders.in/img/posts/flickr3.png" alt="Flickr3" class="img-fluid" /> Fill up the detail and press submit. Voila.</p>
+<p>You will see this: <img src="/img/posts/flickr3.png" alt="Flickr3" class="img-fluid" /> Fill up the detail and press submit. Voila.</p>
 
-<p>Here is the key. <img src="/inders.in/img/posts/flickr4.png" alt="Flickr1" class="img-fluid" />   
+<p>Here is the key. <img src="/img/posts/flickr4.png" alt="Flickr1" class="img-fluid" />   
 That’s all we need from Flickr. We are basically fetching all albums of a flickr User. Now on to coding.</p>
 
 <p>Now we need to create a blank ionic app.</p>
@@ -190,7 +190,7 @@ That’s all we need from Flickr. We are basically fetching all albums of a flic
 <span class="nt">&lt;/ion-content&gt;</span>
 <span class="nt">&lt;/ion-view&gt;</span>
 </code></pre></div></div>
-<p>Save all the files and you will see app as follows : <img src="/inders.in/img/posts/flickr5.png" alt="Flickr5" class="img-fluid" /></p>
+<p>Save all the files and you will see app as follows : <img src="/img/posts/flickr5.png" alt="Flickr5" class="img-fluid" /></p>
 
 <p>Next we have to display the pictures in these albums. But the problem with Flickr API is it is not really a REST API. Lets say If we need multiple pictures sizes for a photo and its detail then we have to make two HTTP calls to get those information. That is why Flickr API is really mess. But since we have power of angularjs with us. Here is what we will do now. We are creating two function inside our ‘Flickr’ Factory as follows :</p>
 
@@ -282,7 +282,7 @@ That’s all we need from Flickr. We are basically fetching all albums of a flic
 
 <p>That is it. Output will look like below :</p>
 
-<p><img src="/inders.in/img/posts/flickr6.png" alt="Flickr6" class="img-fluid" /></p>
+<p><img src="/img/posts/flickr6.png" alt="Flickr6" class="img-fluid" /></p>
 
 
       <hr>
@@ -290,10 +290,10 @@ That’s all we need from Flickr. We are basically fetching all albums of a flic
       <div class="clearfix">
 
         
-        <a class="btn btn-primary float-left" href="/inders.in/blog/2015/01/18/creating-ultimate-sidemenu-navigation-ionic-app.html" data-toggle="tooltip" data-placement="top" title="Creating Ultimate Sidemenu Navigation for Ionic App.">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        <a class="btn btn-primary float-left" href="/blog/2015/01/18/creating-ultimate-sidemenu-navigation-ionic-app.html" data-toggle="tooltip" data-placement="top" title="Creating Ultimate Sidemenu Navigation for Ionic App.">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
         
         
-        <a class="btn btn-primary float-right" href="/inders.in/blog/2015/06/20/support-me-to-reach-at-mit-entrepreneurship-bootcamp.html" data-toggle="tooltip" data-placement="top" title="Support young entrepreneur to reach MIT Entrepreneurship Bootcamp">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        <a class="btn btn-primary float-right" href="/blog/2015/06/20/support-me-to-reach-at-mit-entrepreneurship-bootcamp.html" data-toggle="tooltip" data-placement="top" title="Support young entrepreneur to reach MIT Entrepreneurship Bootcamp">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         
 
       </div>
@@ -341,11 +341,11 @@ That’s all we need from Flickr. We are basically fetching all albums of a flic
 </footer>
 
 
-    <script src="/inders.in/assets/vendor/jquery/jquery.min.js"></script>
-<script src="/inders.in/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/inders.in/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
 
-<script src="/inders.in/assets/scripts.js"></script>
+<script src="/assets/scripts.js"></script>
 
 
 
