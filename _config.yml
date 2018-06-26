@@ -21,6 +21,7 @@ disqus:
 markdown: kramdown
 highlighter: rouge
 destination: ./docs/
+permalink: pretty
 
 paginate:          5
 paginate_path:     "/posts/page:num/"
