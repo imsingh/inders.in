@@ -15,7 +15,7 @@ facebook_username:
 
 #disqus
 disqus:
-  shortname: inders.in
+  shortname: indersin
 
 # Build settings
 markdown: kramdown
