@@ -13,6 +13,10 @@ twitter_username:  imsinghk7
 github_username:   imsingh
 facebook_username:
 
+#disqus
+disqus:
+  shortname: inders.in
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
