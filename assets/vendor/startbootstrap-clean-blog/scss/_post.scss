@@ -1,5 +1,15 @@
 // Styling for the post page
 .post-preview {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .post-content {
+    text-align: justify;
+    text-justify: inter-word;
+  }
   > a {
     color: $gray-900;
     &:focus,

@@ -11,13 +11,8 @@ No Doubt Ionic Framework is one of the best CSS framework out there to be used w
 
   * If Package Control is installed, skip this step. Else, Go to <https://sublime.wbond.net/installation> for Installing Package Control in Sublime Text.
   * Now in Sublime Text Press **Ctrl + Shift + P **and type **Install Package. **Press **Enter.**
-
-![CSP](http://inders.in/wp-content/uploads/2014/05/CSP-300x168.png)
-
   * Now type **Ionic **you will see the plugin there.
-
-![ionic](http://inders.in/wp-content/uploads/2014/05/ionic-300x168.png)
-
+  
 That's it.
 
 Want to Send any Feedback ? Here is the Link of Github Repo. <https://github.com/imsingh/ionic-sublime-plugin/>

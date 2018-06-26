@@ -9,7 +9,7 @@ comments: true
 Hi Folks, it is good to be back at writing this blog. I am so excited to tell you that my first book is published by Packt Publication named _Ionic 2 Blueprints_. As the name suggests, this book is about Ionic 2 and it will take you to the journey of creating 7 Mobile Apps using Ionic 2. 
 <!--more-->
 
-![Ionic2Blueprint](/img/posts/ionic-2-blueprints.png) 
+![Ionic2Blueprint]({{ "/img/posts/ionic-2-blueprints.png" | relative_url}})
 
 Here are  the details of these 7 apps. 
 

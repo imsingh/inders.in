@@ -205,6 +205,14 @@ header.masthead {
     header.masthead .post-heading .subheading {
       font-size: 30px; } }
 
+.post-preview img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+.post-preview .post-content {
+  text-align: justify;
+  text-justify: inter-word; }
 .post-preview > a {
   color: #212529; }
   .post-preview > a:focus, .post-preview > a:hover {
