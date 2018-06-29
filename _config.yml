@@ -20,7 +20,7 @@ disqus:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-destination: ./docs/
+# destination: ./docs/
 permalink: pretty
 
 paginate:          5
