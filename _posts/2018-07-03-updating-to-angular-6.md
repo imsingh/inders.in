@@ -6,10 +6,10 @@ category: blog
 comments: true
 ---
 
-**TL;DR:** In this quick guide, you will learn how to quickly update your Angular projects to [**`Angular 6`**](https://github.com/angular/angular){:target="_new"} and [**`RxJS 6`**](https://github.com/ReactiveX/rxjs){:target="_new"}. Along with litlle issues related to it.
+**TL;DR:** In this quick guide, you will learn how to quickly update your Angular projects to [**`Angular 6`**](https://github.com/angular/angular){:target="_new"} and [**`RxJS 6`**](https://github.com/ReactiveX/rxjs){:target="_new"}. Along with little issues associated with it.
 
 ## Introduction
-Each time `Angular` rolls out newer version. It feels like a hassle to update to it. With the latest updates to `Angular` and `Angular CLI`, angular team introduced some neat ways to update projects to latest version. In this quick quide, you will learn how to update to latest version of Angular.
+Each time `Angular` rolls out newer version. It feels like a hassle to update to it. With the latest updates to `Angular` and `Angular CLI`, angular team introduced some neat ways to update projects to latest version. In this quick guide, you will learn how to update to latest version of Angular.
 
 ## Update TypeScript
 In order to work with latest `@angular/cli` (v6.0.7) package. We must have TypeScript version equals to or greater than `2.7.2` and less than or equal to `2.8.0`. But the latest version of Typescript at the moment is `2.9.2`. So make sure you have the right version of TypeScript. You can install it as follows:
@@ -21,7 +21,7 @@ npm install --save-dev typescript@2.7.2
 If you're still using Angular CLI version `1.0.0-beta.28` or less, first you need to uninstall the current cli as shown below:
 
 ```bash
-mpm uninstall -g angular-cli
+npm uninstall -g angular-cli
 npm uninstall --save-dev angular-cli
 ```
 And to update to the Latest CLI, run the following commands:
@@ -41,7 +41,7 @@ npm install --save-dev @angular/cli@latest
 It will install the latest angular cli for your project.
 
 ## Update Angular Configuration
-With Angular 6, team introduced various changes to configuration files. They also introduced `ng update` command to automatically update to latest versions.
+With Angular 6, the team introduced various changes to configuration files. They also introduced `ng update` command to automatically update to latest versions.
 
 To update the configuration of your angular project. Run the following command:
 ```bash
@@ -49,14 +49,14 @@ ng update @angular/cli
 ```
 
 This command will do several things.
-* It will generate new `angular.json` file for your project and will delete the old `.angular-cli.json` file.
+* It will generate a  new `angular.json` file for your project and will delete the old `.angular-cli.json` file.
 * It will update `karma.conf.js`
 * It will update `tslint.json` and `tsconfig.json` for your project.
 
 ## Update Angular Packages
 Now, we also want to update all the Angular Packages to `6.x.x` Right? 
 
-Following command will do it for you.
+The following command will do it for you.
 ```bash
 ng update @angular/core
 ```
@@ -111,9 +111,9 @@ To use the tool, Run the following command:
 rxjs-5-to-6-migrate -p [PATH_TO_TSCONFIG]
 ```
 
-Replace `[PATH_TO_TSCONFIG]` with path to `tsconfig` file of your project.
+Replace `[PATH_TO_TSCONFIG]` with the path to `tsconfig` file of your project.
 
-It will update the imports and some other stuff. Unfortunately there are some things that you need to fix manually. So take a closer look on what code it generates.
+It will update the imports and some other stuff. Unfortunately, there are some things that you need to fix manually. So take a closer look at what code it generates.
 
 Take a look at [Github Page](https://github.com/ReactiveX/rxjs-tslint){:target="_new"} of this package for more information.
 
