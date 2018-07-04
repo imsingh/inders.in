@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Quick Guide to Update to Angular 6 and RxJS 6
-subtitle: Hassle free way to update to Angular 6
+subtitle: &_subtitle Hassle free way to update to Angular 6
+description: *_subtitle
 category: blog
 comments: true
 ---
