@@ -6,6 +6,7 @@ gemspec
 gem "jekyll", "~> 3.6.0"
 gem 'pygments.rb'
 gem 'rdiscount', '~> 2.1.7.1'
+gem 'jekyll-seo-tag'
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
