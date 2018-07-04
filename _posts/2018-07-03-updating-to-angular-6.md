@@ -92,7 +92,7 @@ With `RxJS 6`, many operators are now lettable/pipeable. You can use them as fol
 import { of } from 'rxjs';
 import { filter } from 'rxjs/operators';
 
-const ofObservable = of(1,2,3)
+const ofSubscription$ = of(1,2,3)
                     .pipe(filter(x => x === 1))
                     .subscribe(x => console.log(x));
 ```
@@ -103,7 +103,6 @@ RxJS team also introduced migration script to ease the process.
 Run the following command to install the tool.
 ```bash
 npm i -g rxjs-tslint
-rxjs-5-to-6-migrate -p [PATH_TO_TSCONFIG]
 ```
 
 To use the tool, Run the following command:
