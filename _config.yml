@@ -17,6 +17,9 @@ facebook_username:
 disqus:
   shortname: indersin
 
+# Google Analytics
+google_analytics: UA-50630125-1
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
