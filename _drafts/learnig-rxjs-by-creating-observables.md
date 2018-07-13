@@ -2,6 +2,8 @@
 layout: post
 title: Learning RxJS by Creating Observables
 subtitle: Deep dive into Observables
+category: blog
+comments: true
 ---
 
 <div class="alert alert-primary" role="alert">
