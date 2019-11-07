@@ -5,28 +5,26 @@ category: ''
 comments: true
 
 ---
-**# Outline**
+## Inheritance
 
-**## Inheritance**
+### Class-based
 
-**### Class based**
+## What is Prototype?
 
-**## What is Prototype?**
+### Accessing Prototype
 
-**### Accessing Prototype**
+#### **proto** and prototype
 
-**#### __proto__ and prototype**
+#### Get and Set Prototype Methods
 
-**#### Get and Set Prototype Methods**
+## Various ways of Prototypical Inheritance
 
-**## Various ways of Prototypical Inheritance**
+### Object Literal
 
-**### Object Literal**
+### Using Object Constructor
 
-**### Using Object Constructor**
+### Constructor Method
 
-**### Constructor Method**
+### ES6 Class
 
-**### ES6 Class**
-
-**### Object.create**
+### Object.create
