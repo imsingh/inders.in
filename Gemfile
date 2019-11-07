@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 gemspec
 
-gem "jekyll", "~> 3.6.0"
+gem "jekyll", "~> 4.0.0"
 gem 'pygments.rb'
 gem 'rdiscount', '~> 2.1.7.1'
 gem 'jekyll-seo-tag'
