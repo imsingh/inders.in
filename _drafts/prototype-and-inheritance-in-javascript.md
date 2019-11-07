@@ -9,6 +9,21 @@ comments: true
 
 ### Class-based
 
+    class Animal {
+      walk() {
+        // Animal walking
+      }
+    }
+
+Inheritance example:
+
+    class Cat extends Animal {
+    	scratch() {
+        }
+    }
+    
+    let mogli = new Cat();
+
 ## What is Prototype?
 
 ### Accessing Prototype
