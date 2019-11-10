@@ -5,24 +5,24 @@ category: blog
 comments: true
 
 ---
+**TL;DR:** In this article, we will see how inheritance works in JavaScript world. We will deep-dive into prototypes and how to use them to do inheritance in JavaScript. Furthermore, we will see also see how the prototypical approach is different from class-based inheritance.
+
 ## Inheritance
 
-### Class-based
+Inheritance, a prominent feature of a programming language, emerged with the introduction of object-oriented programming languages. Most of these languages were class-based languages. Meaning, in order to create an object, first we have to create a class.
 
-    class Animal {
-      walk() {
-        // Animal walking
-      }
-    }
+Following is how we create a class and object in C++: 
 
-Inheritance example:
-
-    class Cat extends Animal {
-    	scratch() {
-        }
+    class SmartPhone {
+        capturePictures() {
+          // magic code to captsure pictures
+        } 
     }
     
-    let mogli = new Cat();
+    // creating object of SmartPhone
+    class mobile = new SmartPhone('mobile');
+
+Following is how we create 
 
 ## What is Prototype?
 
