@@ -11,7 +11,7 @@ comments: true
 
 Inheritance, a prominent feature of a programming language, emerged with the introduction of object-oriented programming languages. Most of these languages were class-based languages. Meaning, in order to create an object, first we have to create a class.
 
-Following is how we create a class and an object in C++: 
+Following is an example of how we create a class and an object in C++: 
 
     class SmartPhone {
       public:
