@@ -11,18 +11,35 @@ comments: true
 
 Inheritance, a prominent feature of a programming language, emerged with the introduction of object-oriented programming languages. Most of these languages were class-based languages. Meaning, in order to create an object, first we have to create a class.
 
-Following is how we create a class and object in C++: 
+Following is how we create a class and an object in C++: 
 
     class SmartPhone {
-        capturePictures() {
-          // magic code to captsure pictures
-        } 
-    }
+      public:
+      void captureImages() {}
+    };
     
     // creating object of SmartPhone
-    class mobile = new SmartPhone('mobile');
+    SmartPhone x;
+    x.captureImages();
+    
 
-Following is how we create 
+We created a class named _SmartPhone_ and it has a method named _capturePictures,_ to capture images.
+
+Let's imagine, we need an iPhone class, which should capture images along with some special features like face id scan. Here comes the inheritance; a way to inherit features from other classes/objects. 
+
+Following is how we can inherit capturePictures method from SmartPhone class, in our new Iphone class, in C++ :
+
+    class Iphone: public SmartPhone {
+      public:
+      void faceIDScan() {}
+    };
+    
+    // creating object of Iphone
+    Iphone x;
+    x.captureImages();
+    x.faceIDScan();
+
+Above is a trivial example of inheritance, where we didn't have to write capturePictures method again.
 
 ## What is Prototype?
 
