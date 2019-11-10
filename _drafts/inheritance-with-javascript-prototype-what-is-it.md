@@ -25,7 +25,7 @@ Following is an example of how we create a class and an object in C++:
 
 We created a class named _SmartPhone_ and it has a method named _capturePictures,_ to capture images.
 
-Let's imagine, we need an iPhone class, which should capture images along with some special features like face id scan. Here comes the inheritance; a way to inherit features from other classes/objects. 
+Let's imagine, we need an iPhone class, which should capture images along with some special features like face id scan. **Here comes the inheritance;** _a way to inherit features from other classes/objects._ 
 
 Following is how we can inherit capturePictures method from SmartPhone class, in our new Iphone class, in C++ :
 
@@ -51,15 +51,29 @@ Above is a trivial example of inheritance, where we didn't have to write capture
 
 ## Various ways of Prototypical Inheritance
 
+In JavaScript, there is just prototypical inheritance. No matter how we create an Object. But still, there are subtle differences, that we should take a look upon. 
+
 ### Object Literal
 
-    let obj = {};
-    console.log(obj);
+The easiest way to create an object in JavaScript is by using an object literal. This is how we do it:
+
+    let obj = {}; 
+
+If we log the obj in the browser's console, we will see the following:
+
+// browser log image
 
 ### Using Object Constructor
 
+One another, not-so-common way of creating object is using Object constructor. JavaScript provides a built-in Constructor method named, _object_ to create Objects.
+
+Following is how we use it:
+
     let obj = new Object();
-    console.log(obj);
+
+if we log the obj in the browser's console, we will  see the following:
+
+// browser log image
 
 ### Constructor Method
 
