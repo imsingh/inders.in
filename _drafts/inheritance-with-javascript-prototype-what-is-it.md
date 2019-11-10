@@ -65,7 +65,7 @@ If we log the obj in the browser's console, we will see the following:
 
 ### Using Object Constructor
 
-One another, not-so-common way of creating object is using Object constructor. JavaScript provides a built-in Constructor method named, _object_ to create Objects.
+One another, not-so-common way of creating an object is using Object constructor. JavaScript provides a built-in Constructor method named, _object_ to create Objects.
 
 Following is how we use it:
 
@@ -76,6 +76,10 @@ if we log the obj in the browser's console, we will  see the following:
 // browser log image
 
 ### Constructor Method
+
+Just like we have Object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs. 
+
+A constructor function is very similar to a class. In fact, in the next example, we will see a detailed comparison.
 
     function MyObject {
     
