@@ -54,7 +54,7 @@ Almost all the objects in JavaScript are derived from `Object`, which is why we 
 
 #### `[[Prototype]]` and `prototype`
 
-#### `**proto**` object
+#### `__proto__` object
 
 #### Get and Set Prototype Methods
 
