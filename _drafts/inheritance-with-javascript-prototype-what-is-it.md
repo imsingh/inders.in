@@ -58,15 +58,19 @@ This is how we can access it:
 
     obj.__proto__
 
-It's important to notice that, this property is not part of the ECMAScript Standard. It is a de-facto implementation by the browsers. 
+It's important to notice that, this property is not part of the ECMAScript Standard. It is a de-facto implementation by the browsers.
 
 ### Get and Set Prototype Methods
 
-Apart from the `__proto__` property, there is a standard way to access the `[[Prototype]]`. 
+Apart from the `__proto__` property, there is a standard way to access the `[[Prototype]]`.
 
-Following is how we can access the `[[Prototype]]` of an object: 
+Following is how we can access the `[[Prototype]]` of an object:
 
-```Object.getPrototypeOf(obj);```
+    Object.getPrototypeOf(obj);
+
+There is similar method to set the \[\[Prototype\]\] of an object. This is how we do it:
+
+    Object.setPrototypeOf(obj, prototype);
 
 ### `[[Prototype]]` and `prototype`
 
