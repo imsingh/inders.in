@@ -74,6 +74,8 @@ There is similar method to set the \[\[Prototype\]\] of an object. This is how w
 
 ### `[[Prototype]]` and `prototype`
 
+We have discussed **\[\[Prototype\]\]**. It's nothing but a standard notation to designate the prototype of an object. Many developers gets confused with **Function.prototype**, which is something entirely different thing.
+
 ### What happens when we access a property?
 
 ## Various ways of Prototypical Inheritance
