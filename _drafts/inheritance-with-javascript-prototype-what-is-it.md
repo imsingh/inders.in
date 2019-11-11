@@ -87,6 +87,8 @@ In JavaScript, there are many ways of creating an Object. One way is using a con
     // creating an object from constructor function
     let mobile = new SmartPhone();
 
+When you **console.log** the mobile object, you will see that it has a **__proto__** property, as shown below:
+
 ### What happens when we access a property?
 
 ## Various ways of Prototypical Inheritance
