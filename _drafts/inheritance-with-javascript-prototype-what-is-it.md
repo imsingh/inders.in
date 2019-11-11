@@ -89,7 +89,7 @@ In JavaScript, there are many ways of creating an Object. One way is using a con
 
 When you **console.log** the `phone` object, this is what you get: 
 
-    SmartPhone {
+    {
     	os: "Android",
     	__proto__: {
     		constructor: ƒ SmartPhone(os),
