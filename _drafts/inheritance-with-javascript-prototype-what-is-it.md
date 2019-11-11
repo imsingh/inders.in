@@ -44,9 +44,11 @@ Above is a trivial example of inheritance, where we didn't have to write capture
 
 In JavaScript, objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is called as `[[Prototype]]`
 
-Since `[[Prototype]]` itself is an object, it has its own `[[Prototype]]` reference. This is how a chain is built, termed as the **prototype chain.** 
+Since `[[Prototype]]` itself is an object, it has its own `[[Prototype]]` reference. This is how a chain is built, termed as the **prototype chain.**
 
-Almost all the objects in JavaScript are derived from `Object`, which is why we can access all the methods available on `Object` constructor in other objects. 
+> This chain of prototype is the building-block of Inheritance in JavaScript.
+
+Almost all the objects in JavaScript are derived from `Object`, which is why we can access all the methods available on `Object` constructor in other objects.
 
 ### Accessing Prototype
 
