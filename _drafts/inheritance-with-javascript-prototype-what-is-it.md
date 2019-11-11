@@ -76,11 +76,13 @@ There is similar method to set the \[\[Prototype\]\] of an object. This is how w
 
 We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation to designate the prototype of an object._ Many developers get confused with **.prototype** object, which is an entirely different thing.
 
-Let's explore the .prototype object.
+Let's explore the **.prototype** object.
 
-In JavaScript, there are many ways of creating an Object. One way is using a constructor function. Following is how you create a constructor function :
+In JavaScript, there are many ways of creating an Object. One way is using a constructor function. Following is how you create and use a constructor function :
 
-    function SmartPhone() {}
+    function SmartPhone() {
+      this.type = 'smartphone';
+    }
     
     // creating an object from constructor function
     let mobile = new SmartPhone();
