@@ -24,7 +24,7 @@ Following is an example of how we create a class and an object in C++:
 
 We created a class named _SmartPhone_ and it has a method named _capturePictures,_ to capture images.
 
-Let's imagine, we need an iPhone class, which should capture images along with some special features like face id scan. **Here comes the inheritance;** _a way to inherit features from other classes/objects._
+Let's imagine, we need an iPhone class, which should capture images along with some special features like face id scan. **This is where inheritance comes into play;** _a way to inherit features from other classes/objects._
 
 Following is how we can inherit capturePictures method from SmartPhone class, in our new Iphone class, in C++ :
 
