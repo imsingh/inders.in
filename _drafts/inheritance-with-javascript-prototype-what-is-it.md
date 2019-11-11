@@ -50,13 +50,11 @@ Since `[[Prototype]]` itself is an object, it has its own `[[Prototype]]` refere
 
 Almost all the objects in JavaScript are derived from `Object`, which is why we can access all the methods available on `Object` constructor in other objects.
 
-### Accessing Prototype
+### `[[Prototype]]` and `prototype`
 
-#### `[[Prototype]]` and `prototype`
+### `__proto__` object
 
-#### `__proto__` object
-
-#### Get and Set Prototype Methods
+### Get and Set Prototype Methods
 
 ### What happens when you access a property?
 
