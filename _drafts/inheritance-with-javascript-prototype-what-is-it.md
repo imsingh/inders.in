@@ -146,7 +146,7 @@ When we try to access a property on an object. Following happens:
    2.  Otherwise, it does the following.
 2. JavaScript Engine then checks the inherited property of an object by looking at \[\[Prototype\]\]. 
    1.  If the property is found, it gets executed/return. 
-   2. Otherwise, it looks into \[\[Prototype\]\] of \[\[Prototype\]\]. This chain ends when either the property i found or there is no \[\[Prototype\]\] left, which means that we have reached the end of the prototype chain.
+   2. Otherwise, it looks into \[\[Prototype\]\] of \[\[Prototype\]\]. This chain ends when either the property is found or there is no \[\[Prototype\]\] left, which means that we have reached the end of the prototype chain.
 
 ## Various ways of Prototypical Inheritance
 
@@ -219,5 +219,7 @@ With this helper method, we can create an object with an another object as it's 
     console.log(Iphone);
 
 ### Object.assign method 
+
+Ever wonder, if you can create an Object which has no inherited methods. With Object.assign, you can do that.
 
 ## Conclusion
