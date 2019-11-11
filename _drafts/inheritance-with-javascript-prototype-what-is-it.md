@@ -216,10 +216,22 @@ With this helper method, we can create an object with an another object as it's 
     }
     
     let Iphone = Object.create(SmartPhone);
-    console.log(Iphone);
+    Iphone.faceIDScan = function() {}
+    
+    Iphone.captureImages();
+    Iphone.faceIDScan();
 
 ### Object.assign method 
 
 Ever wonder, if you can create an Object which has no inherited methods. With Object.assign, you can do that.
+
+    let SmartPhone = {
+      captureImages: function() {}
+    };
+    
+    let Iphone = Object.create(SmartPhone);
+    Iphone.faceIDScan = function() {}
+    
+    let iPhoneX = Object.assign(SmartPhone, Iphone);
 
 ## Conclusion
