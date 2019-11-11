@@ -99,6 +99,12 @@ When you **console.log** the `phone` object, this is what you get:
 
 Now, if we want to have some methods on the SmartPhone object, we can do the following:
 
+    SmartPhone.prototype.isAndroid = function() {
+    	return this.os === 'Android' || 'android';
+    }
+
+Can we have methods inside the constructor function?
+
 ### What happens when we access a property?
 
 ## Various ways of Prototypical Inheritance
