@@ -103,6 +103,17 @@ Now, if we want to have some methods on the SmartPhone object, we can do the fol
     	return this.os === 'Android' || 'android';
     }
 
+Now, if we create the phone object again, we would see following in the console.log:
+
+    {
+    	os: "Android",
+    	__proto__: {
+        	isIphone: ƒ (),
+    		constructor: ƒ SmartPhone(os),
+    		__proto__: Object
+        }
+    }
+
 Can we have methods inside the constructor function?
 
 ### What happens when we access a property?
