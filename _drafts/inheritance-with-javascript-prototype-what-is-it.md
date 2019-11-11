@@ -137,7 +137,7 @@ Let's take a look at the following example:
     }
     **/
 
-The problem with the above approach is, each time we initiate a new object. The **_method_**  get's copied to it
+The problem with this approach is when we initiate a new object. All the instance gets their own copy of _methodA_. But when we create it on function's prototype, all instances of the object share the same of methods. Which is more efficient. 
 
 ### What happens when we access a property?
 
