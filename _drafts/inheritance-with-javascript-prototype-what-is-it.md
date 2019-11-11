@@ -141,6 +141,15 @@ The problem with this approach is when we initiate a new object. All the instanc
 
 ### What happens when we access a property?
 
+When we try to access a property on an object. Following happens:
+
+1. JavaScript engine looks for the property on the object. 
+   a. If it finds the property, then it returns/execute it. 
+   b. Otherwise, it does the following.
+2. JavaScript Engine then checks the inherited property of an object by looking at \[\[Prototype\]\]. 
+   a. If the property is found, it gets executed/return. 
+   b. Otherwise, it looks into \[\[Prototype\]\] of \[\[Prototype\]\]. This chain ends when either the property of found or there is no \[\[Prototype\]\] left, which means that we have reached the end of prototype chain.
+
 ## Various ways of Prototypical Inheritance
 
 In JavaScript, there is just prototypical inheritance. No matter how we create an Object. But still, there are subtle differences, that d we should take a look upon.
