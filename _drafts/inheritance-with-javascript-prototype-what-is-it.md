@@ -38,7 +38,7 @@ Following is how we can inherit capturePictures method from SmartPhone class, in
     x.captureImages();
     x.faceIDScan();
 
-Above is a trivial example of inheritance, where we didn't have to write capturePictures method again.
+Above is a trivial example of inheritance, where we simply re-used capturePictures method.
 
 ## What is Prototype?
 
@@ -52,7 +52,7 @@ Almost all the objects in JavaScript are derived from `Object`, which is why we 
 
 ### Accessing Prototype
 
-#### **proto** and prototype
+#### `__proto__` and `prototype`
 
 #### Get and Set Prototype Methods
 
