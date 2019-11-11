@@ -186,7 +186,18 @@ Just like we have Object constructor function provided by JavaScript runtime. Si
 
 A constructor function is very similar to a class. In fact, in the next example, we will see a detailed comparison.
 
+    function SmartPhone() {
+    }
+    SmartPhone.prototype.captureImages = function() {};
     
+    function Iphone() {
+    } 
+    Iphone.prototype = SmartPhone.prototype;
+    Iphone.prototype.faceIDScan = function() {}
+    
+    let x = new Iphone();
+    x.captureImages();
+    x.faceIDScan();
 
 ### ES6 Class
 
