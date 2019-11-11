@@ -68,7 +68,7 @@ Following is how we can access the `[[Prototype]]` of an object:
 
     Object.getPrototypeOf(obj);
 
-There is similar method to set the \[\[Prototype\]\] of an object. This is how we do it:
+There is a similar method to set the \[\[Prototype\]\] of an object. This is how we do it:
 
     Object.setPrototypeOf(obj, prototype);
 
