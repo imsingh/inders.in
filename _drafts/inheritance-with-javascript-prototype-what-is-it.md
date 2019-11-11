@@ -11,7 +11,7 @@ comments: true
 
 Inheritance, a prominent feature of a programming language, emerged with the introduction of object-oriented programming languages. Most of these languages were class-based languages. Meaning, in order to create an object, first we have to create a class.
 
-Following is an example of how we create a class and an object in C++: 
+Following is an example of how we create a class and an object in C++:
 
     class SmartPhone {
       public:
@@ -21,11 +21,10 @@ Following is an example of how we create a class and an object in C++:
     // creating object of SmartPhone
     SmartPhone x;
     x.captureImages();
-    
 
 We created a class named _SmartPhone_ and it has a method named _capturePictures,_ to capture images.
 
-Let's imagine, we need an iPhone class, which should capture images along with some special features like face id scan. **Here comes the inheritance;** _a way to inherit features from other classes/objects._ 
+Let's imagine, we need an iPhone class, which should capture images along with some special features like face id scan. **Here comes the inheritance;** _a way to inherit features from other classes/objects._
 
 Following is how we can inherit capturePictures method from SmartPhone class, in our new Iphone class, in C++ :
 
@@ -43,6 +42,12 @@ Above is a trivial example of inheritance, where we didn't have to write capture
 
 ## What is Prototype?
 
+In JavaScript, objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is called as `[[Prototype]]`
+
+Since `[[Prototype]]` itself is an object, it has its own `[[Prototype]]` reference. This is how a chain is built, termed as the **prototype chain.** 
+
+Almost all the objects in JavaScript are derived from `Object`, which is why we can access all the methods available on `Object` constructor in other objects. 
+
 ### Accessing Prototype
 
 #### **proto** and prototype
@@ -51,7 +56,7 @@ Above is a trivial example of inheritance, where we didn't have to write capture
 
 ## Various ways of Prototypical Inheritance
 
-In JavaScript, there is just prototypical inheritance. No matter how we create an Object. But still, there are subtle differences, that we should take a look upon. 
+In JavaScript, there is just prototypical inheritance. No matter how we create an Object. But still, there are subtle differences, that we should take a look upon.
 
 ### Object Literal
 
@@ -62,6 +67,8 @@ The easiest way to create an object in JavaScript is by using an object literal.
 If we log the obj in the browser's console, we will see the following:
 
 // browser log image
+
+// it has the default object prototype
 
 ### Using Object Constructor
 
@@ -75,9 +82,11 @@ if we log the obj in the browser's console, we will  see the following:
 
 // browser log image
 
+// it has the default object prototype
+
 ### Constructor Method
 
-Just like we have Object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs. 
+Just like we have Object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs.
 
 A constructor function is very similar to a class. In fact, in the next example, we will see a detailed comparison.
 
