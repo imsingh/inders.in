@@ -108,7 +108,7 @@ Now, if we create the phone object again, we would see following in the console.
     {
     	os: "Android",
     	__proto__: {
-        	isIphone: ƒ (),
+        	isAndroid: ƒ (),
     		constructor: ƒ SmartPhone(os),
     		__proto__: Object
         }
