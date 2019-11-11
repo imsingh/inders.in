@@ -114,7 +114,7 @@ Now, if we create the phone object again, we would see following in the console.
         }
     }
 
-_In short, .prototype property, is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
+_In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
 
 Can we have methods inside the constructor function?
 
