@@ -80,6 +80,11 @@ Let's explore the .prototype object.
 
 In JavaScript, there are many ways of creating an Object. One way is using constructor function. Following is how you create a constructor function :
 
+    function SmartPhone() {}
+    
+    // creating an object from constructor function
+    let mobile = new SmartPhone();
+
 ### What happens when we access a property?
 
 ## Various ways of Prototypical Inheritance
