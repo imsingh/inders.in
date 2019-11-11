@@ -97,6 +97,8 @@ When you **console.log** the `phone` object, this is what you get:
         }
     }
 
+Now, if we want to have some methods on the SmartPhone object, we can do the following:
+
 ### What happens when we access a property?
 
 ## Various ways of Prototypical Inheritance
