@@ -74,9 +74,9 @@ There is a similar method to set the \[\[Prototype\]\] of an object. This is how
 
 ### `[[Prototype]]` and `prototype`
 
-We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation to designate the prototype of an object._ Many developers get confused with **.prototype** object, which is an entirely different thing.
+We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation to designate the prototype of an object._ Many developers get confused with **.prototype** property, which is an entirely different thing.
 
-Let's explore the **.prototype** object.
+Let's explore the **.prototype** property.
 
 In JavaScript, there are many ways of creating an Object. One way is using a constructor function. Following is how you create and use a constructor function :
 
@@ -114,7 +114,7 @@ Now, if we create the phone object again, we would see following in the console.
         }
     }
 
-_In short, .prototype property, is basically like a blueprint for the **proto** object created by the the given constructor function._
+_In short, .prototype property, is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
 
 Can we have methods inside the constructor function?
 
