@@ -81,13 +81,13 @@ Let's explore the **.prototype** object.
 In JavaScript, there are many ways of creating an Object. One way is using a constructor function. Following is how you create and use a constructor function :
 
     function SmartPhone() {
-      this.type = 'smartphone';
+      this.os = 'Android';
     }
     
     // creating an object from constructor function
-    let mobile = new SmartPhone();
+    let phone = new SmartPhone();
 
-When you **console.log** the mobile object, you will see that it has a **__proto__** property, as shown below:
+When you **console.log** the mobile object, you will see that it has a **proto** property, as shown below:
 
 ### What happens when we access a property?
 
