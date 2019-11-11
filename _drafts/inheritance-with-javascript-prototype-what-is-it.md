@@ -85,7 +85,7 @@ In JavaScript, there are many ways of creating an Object. One way is using a con
     // creating an object from constructor function
     let phone = new SmartPhone('Android');
 
-When you **console.log** the `phone` object, this is what you get: 
+When you **console.log** the `phone` object, this is what you get:
 
     {
     	os: "Android",
@@ -114,17 +114,36 @@ Now, if we create the phone object again, we would see following in the console.
 
 _In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
 
-As shown in the previous console.log, **proto** object has reference to another **proto** object. This chaining ends with Object.prototype, which is 
+Also, as shown in the previous console.log, **proto** object has reference to another **proto** object. This chaining ends with Object.prototype, which is
 
 Almost all the objects in JavaScript are derived from `Object`, which is why we can access all the methods available on `Object` constructor in other objects.
 
-Can we have methods inside the constructor function?
+It's worth noting that, we can also create methods inside the constructor function. Instead, we did it using the function's prototype. There is a good reason to do so.
+
+Let's take a look at the following example:
+
+    function ObjectA() {
+      this.methodA = function() {}
+    };
+    
+    let firstObj = new ObjectA();
+    console.log(firstObj);
+    
+    // log
+    /**
+    {
+      methodA: ƒ ()
+      __proto__: Object
+    }
+    **/
+
+The problem with the above approach is, each time we initiate a new object. The **_method_**  get's copied to it
 
 ### What happens when we access a property?
 
 ## Various ways of Prototypical Inheritance
 
-In JavaScript, there is just prototypical inheritance. No matter how we create an Object. But still, there are subtle differences, that we should take a look upon.
+In JavaScript, there is just prototypical inheritance. No matter how we create an Object. But still, there are subtle differences, that d we should take a look upon.
 
 ### Object Literal
 
@@ -158,23 +177,16 @@ Just like we have Object constructor function provided by JavaScript runtime. Si
 
 A constructor function is very similar to a class. In fact, in the next example, we will see a detailed comparison.
 
-    function MyObject {
     
-    }
-    
-    let obj = new MyObject();
-    console.log(obj);
 
 ### ES6 Class
 
-    class MyClassObject {
-    	aMethod() {
-          // do something
-        }
-    }
     
-    let obj = new MyClassObject();
 
 ### Object.create
 
     let obj = Object.create();
+
+## Conclusion
+
+In this article,
