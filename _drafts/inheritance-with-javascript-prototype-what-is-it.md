@@ -56,6 +56,8 @@ Almost all the objects in JavaScript are derived from `Object`, which is why we 
 
 #### Get and Set Prototype Methods
 
+#### How does chaining work in JavaScript?
+
 ## Various ways of Prototypical Inheritance
 
 In JavaScript, there is just prototypical inheritance. No matter how we create an Object. But still, there are subtle differences, that we should take a look upon.
