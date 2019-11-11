@@ -148,7 +148,7 @@ When we try to access a property on an object. Following happens:
    2.  Otherwise, it does the following.
 2. JavaScript Engine then checks the inherited property of an object by looking at \[\[Prototype\]\]. 
    1.  If the property is found, it gets executed/return. 
-   2. Otherwise, it looks into \[\[Prototype\]\] of \[\[Prototype\]\]. This chain ends when either the property is found or there is no \[\[Prototype\]\] left, which means that we have reached the end of the prototype chain.
+   2. Otherwise, it looks into \[\[Prototype\]\] of \[\[Prototype\]\]. This chain ends when either the property i found or there is no \[\[Prototype\]\] left, which means that we have reached the end of the prototype chain.
 
 ## Various ways of Prototypical Inheritance
 
@@ -186,11 +186,21 @@ Just like we have Object constructor function provided by JavaScript runtime. Si
 
 A constructor function is very similar to a class. In fact, in the next example, we will see a detailed comparison.
 
+    
+
 ### ES6 Class
 
-### Object.create
-
-    let obj = Object.create();
+    class SmartPhone {
+      captureImages() {}
+    };
+    
+    class Iphone extends SmartPhone {
+       faceIDScan() {}
+    }
+    
+    let x = new Iphone();
+    x.captureImages();
+    x.faceIDScan();
 
 ## Conclusion
 
