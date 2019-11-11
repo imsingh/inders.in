@@ -101,7 +101,7 @@ Now, if we want to have some methods on the SmartPhone object, we can do the fol
     	return this.os === 'Android' || 'android';
     }
 
-Now, if we create the phone object again, we would see following in the console.log:
+When we create the phone object again, we would see following in the console.log:
 
     {
     	os: "Android",
@@ -112,11 +112,9 @@ Now, if we create the phone object again, we would see following in the console.
         }
     }
 
+We can see the i_sAndroid()_ method in the object's \[\[Prototype\]\].
+
 _In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
-
-Also, as shown in the previous console.log, **proto** object has reference to another **proto** object. This chaining ends with Object.prototype, which is
-
-Almost all the objects in JavaScript are derived from `Object`, which is why we can access all the methods available on `Object` constructor in other objects.
 
 It's worth noting that, we can also create methods inside the constructor function. Instead, we did it using the function's prototype. There is a good reason to do so.
 
@@ -164,7 +162,9 @@ If we log the obj in the browser's console, we will see the following:
 
 // browser log image
 
-// it has the default object prototype
+// it has the default object prototype 
+
+So basically, all the objects created with literal notation inherits properties from Object.prototype. 
 
 ### Using Object Constructor
 
@@ -174,11 +174,7 @@ Following is how we use it:
 
     let obj = new Object();
 
-if we log the obj in the browser's console, we will  see the following:
-
-// browser log image
-
-// it has the default object prototype
+This approach results in same object as object literal notation.
 
 ### Constructor Method
 
@@ -212,5 +208,3 @@ A constructor function is very similar to a class. In fact, in the next example,
     x.faceIDScan();
 
 ## Conclusion
-
-In this article,
