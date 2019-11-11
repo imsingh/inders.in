@@ -62,6 +62,12 @@ It's important to notice that, this property is not part of the ECMAScript Stand
 
 ### Get and Set Prototype Methods
 
+Apart from the `__proto__` property, there is a standard way to access the `[[Prototype]]`. 
+
+Following is how we can access the \[\[Prototype\]\] of an object: 
+
+Object.getPrototypeOf(obj);
+
 ### `[[Prototype]]` and `prototype`
 
 ### What happens when we access a property?
