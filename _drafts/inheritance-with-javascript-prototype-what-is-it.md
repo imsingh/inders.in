@@ -114,6 +114,8 @@ Now, if we create the phone object again, we would see following in the console.
         }
     }
 
+_In short, .prototype property, is basically like a blueprint for the **proto** object created by the the given constructor function._
+
 Can we have methods inside the constructor function?
 
 ### What happens when we access a property?
