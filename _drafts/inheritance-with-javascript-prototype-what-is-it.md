@@ -207,4 +207,17 @@ A constructor function is very similar to a class. In fact, in the next example,
     x.captureImages();
     x.faceIDScan();
 
+### Object.create method
+
+With this helper method, we can create an object with an another object as it's \[\[Prototype\]\].  Following is an example: 
+
+    let SmartPhone = {
+      captureImages: function() {}
+    }
+    
+    let Iphone = Object.create(SmartPhone);
+    console.log(Iphone);
+
+### Object.assign method 
+
 ## Conclusion
