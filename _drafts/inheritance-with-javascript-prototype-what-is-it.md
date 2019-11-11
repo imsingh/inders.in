@@ -87,7 +87,15 @@ In JavaScript, there are many ways of creating an Object. One way is using a con
     // creating an object from constructor function
     let phone = new SmartPhone('Android');
 
-When you **console.log** the phone object, you will see that it has a `__proto__` property, as shown below:
+When you **console.log** the `phone` object, this is what you get: 
+
+    SmartPhone {
+    	os: "Android"
+    	__proto__: {
+    		constructor: ƒ SmartPhone(os)
+    		__proto__: Object
+        }
+    }
 
 ### What happens when we access a property?
 
