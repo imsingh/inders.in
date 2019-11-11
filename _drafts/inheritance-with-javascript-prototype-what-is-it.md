@@ -78,7 +78,7 @@ We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation t
 
 Let's explore the .prototype object.
 
-In JavaScript, there are many ways of creating an Object. One way is using constructor function. Following is how you create a constructor function :
+In JavaScript, there are many ways of creating an Object. One way is using a constructor function. Following is how you create a constructor function :
 
     function SmartPhone() {}
     
