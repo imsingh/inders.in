@@ -48,8 +48,6 @@ Since `[[Prototype]]` itself is an object, it has its own `[[Prototype]]` refere
 
 > This chain of prototype is the building-block of Inheritance in JavaScript.
 
-Almost all the objects in JavaScript are derived from `Object`, which is why we can access all the methods available on `Object` constructor in other objects.
-
 ### `__proto__` object
 
 To access the object's `[[Prototype]]`, all the browsers have __proto property.
@@ -115,6 +113,10 @@ Now, if we create the phone object again, we would see following in the console.
     }
 
 _In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
+
+As shown in the previous console.log, **proto** object has reference to another **proto** object. This chaining ends with Object.prototype, which is 
+
+Almost all the objects in JavaScript are derived from `Object`, which is why we can access all the methods available on `Object` constructor in other objects.
 
 Can we have methods inside the constructor function?
 
