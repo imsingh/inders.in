@@ -221,6 +221,16 @@ Next thing is, we have to inherit methods from SmartPhone constructor. We can us
 
     Iphone.prototype = Object.create(SmartPhone.prototype);
 
+Now we can add methods specific to Iphone, using prototype as follows:
+
+    Iphone.prototype.faceIDScan = function() {};
+
+Finally, we can create Iphone object as follows:
+
+    let x = new Iphone();
+    console.log(x.isIos()):
+    // true
+
 ### ES6 Class
 
 With the ES6, this whole ordeal is way too simple. We can create classes _\[they are not the same as classes in c++ or other any class-based language, just a syntactical sugar on top of prototypical inheritance\]_ and derive new classes from other classes. 
