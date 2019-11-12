@@ -215,11 +215,15 @@ First, we have to create a Iphone constructor function and inside it, we should 
        SmartPhone.call(this, 'iOS');
     }
 
-Now we have 
+This will set **this.os** property to **'iOS'** in Iphone constructor function.
+
+Next thing is, we have to inherit methods from SmartPhone constructor. We can use our Object.create friend here, as follows: 
+
+    Iphone.prototype = Object.create(SmartPhone.prototype);
 
 ### ES6 Class
 
-With the ES6, this whole ordeal is way too simple. We can create classes\[they are not the same as classes in c++ or other any class-based language\] and derive new classes from other classes. 
+With the ES6, this whole ordeal is way too simple. We can create classes _\[they are not the same as classes in c++ or other any class-based language, just a syntactical sugar on top of prototypical inheritance\]_ and derive new classes from other classes. 
 
 Following is how we create a class in ES6: 
 
