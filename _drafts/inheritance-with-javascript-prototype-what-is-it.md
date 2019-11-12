@@ -186,7 +186,6 @@ With this helper method, we can create an object with another object as it's \[\
     
     let Iphone = Object.create(SmartPhone);
     
-    
     Iphone.captureImages();
     Iphone.faceIDScan();
 
