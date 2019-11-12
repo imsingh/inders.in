@@ -42,7 +42,7 @@ Above is a trivial example of inheritance, where we simply re-used capturePictur
 
 ## What is Prototype?
 
-In JavaScript, objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is called as `[[Prototype]]`
+In JavaScript, all objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is called as `[[Prototype]]`
 
 Since `[[Prototype]]` itself is an object, it has its own `[[Prototype]]` reference. This is how a chain is built, termed as the **prototype chain.**
 
