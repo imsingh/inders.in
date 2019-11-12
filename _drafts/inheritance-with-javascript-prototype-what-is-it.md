@@ -70,7 +70,7 @@ There is a similar method to set the \[\[Prototype\]\] of an object. This is how
 
     Object.setPrototypeOf(obj, prototype);
 
-### `[[Prototype]]` and `prototype`
+### `[[Prototype]]` and `prototype` property
 
 We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation to designate the prototype of an object._ Many developers get it confused with **.prototype** property, which is an entirely different thing.
 
@@ -141,11 +141,11 @@ The problem with this approach is when we initiate a new object. All the instanc
 
 When we try to access a property on an object. Following happens:
 
-1. JavaScript engine looks for the property on the object. 
-   1. If it finds the property, then it returns/execute it. 
-   2.  Otherwise, it does the following.
-2. JavaScript Engine then checks the inherited property of an object by looking at \[\[Prototype\]\]. 
-   1.  If the property is found, it gets executed/return. 
+1. JavaScript engine looks for the property on the object.
+   1. If it finds the property, then it returns/execute it.
+   2. Otherwise, it does the following.
+2. JavaScript Engine then checks the inherited property of an object by looking at \[\[Prototype\]\].
+   1. If the property is found, it gets executed/return.
    2. Otherwise, it looks into \[\[Prototype\]\] of \[\[Prototype\]\]. This chain ends when either the property is found or there is no \[\[Prototype\]\] left, which means that we have reached the end of the prototype chain.
 
 ## Various ways of Prototypical Inheritance
@@ -162,9 +162,9 @@ If we log the obj in the browser's console, we will see the following:
 
 // browser log image
 
-// it has the default object prototype 
+// it has the default object prototype
 
-So basically, all the objects created with literal notation inherits properties from Object.prototype. 
+So basically, all the objects created with literal notation inherits properties from Object.prototype.
 
 ### Using Object Constructor
 
@@ -209,7 +209,7 @@ A constructor function is very similar to a class. In fact, in the next example,
 
 ### Object.create method
 
-With this helper method, we can create an object with an another object as it's \[\[Prototype\]\].  Following is an example: 
+With this helper method, we can create an object with an another object as it's \[\[Prototype\]\].  Following is an example:
 
     let SmartPhone = {
       captureImages: function() {}
@@ -221,7 +221,7 @@ With this helper method, we can create an object with an another object as it's 
     Iphone.captureImages();
     Iphone.faceIDScan();
 
-### Object.assign method 
+### Object.assign method
 
 Ever wonder, if you can create an Object which has no inherited methods. With Object.assign, you can do that.
 
