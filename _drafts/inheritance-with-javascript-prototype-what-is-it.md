@@ -193,33 +193,60 @@ This is one of the simplest ways of inheritance in JavaScript.
 
 ### Constructor Method
 
-Just like we have object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs and then using inheritance to
+Just like we have object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs as shown below:
 
-A constructor function is very similar to a class. In fact, in the next example, we will see a detailed comparison.
+    function SmartPhone(os) {
+      this.os = os;
+    }
+    
+    SmartPhone.prototype.isAndroid = function() {
+      return this.os === 'Android';
+    };
+    
+    SmartPhone.prototype.isIOS = function() {
+      return this.os === 'iOS';
+    };
 
-    function SmartPhone() {}
-    SmartPhone.prototype.captureImages = function() {};
-    
-    function Iphone() {} 
-    Iphone.prototype = SmartPhone.prototype;
-    Iphone.prototype.faceIDScan = function() {}
-    
-    let x = new Iphone();
-    x.captureImages();
-    x.faceIDScan();
+Now similarly, we want to create an iPhone class, which should have 'iOS' as it's os. It should also have faceIDScan method. 
+
+First, we have to create a Iphone constructor function and inside it, we should call SmartPhone constructor, as follow: 
+
+    function Iphone() {
+       SmartPhone.call(this, 'iOS');
+    }
+
+Now we have 
 
 ### ES6 Class
 
+With the ES6, this whole ordeal is way too simple. We can create classes\[they are not the same as classes in c++ or other any class-based language\] and derive new classes from other classes. 
+
+Following is how we create a class in ES6: 
+
     class SmartPhone {
-      captureImages() {}
+      constructor(os) {
+      	this.os = os;
+      }
+      isAndroid() {
+      	return this.os === 'Android';
+      }
+      isIos() {
+      	return this.os === 'iOS';
+      }
     };
     
     class Iphone extends SmartPhone {
+       constructor() {
+         super.call('iOS');
+       }
        faceIDScan() {}
     }
     
     let x = new Iphone();
-    x.captureImages();
     x.faceIDScan();
+    
+    // inherited method
+    console.log(x.isIos());
+    // true
 
 ## Conclusion
