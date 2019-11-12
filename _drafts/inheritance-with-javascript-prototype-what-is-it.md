@@ -150,7 +150,7 @@ When we try to access a property on an object. Following happens:
 
 ## Various ways of Prototypical Inheritance
 
-In JavaScript, there is just prototypical inheritance. No matter how we create an Object. But still, there are subtle differences, that d we should take a look upon.
+In JavaScript, there is just prototypical inheritance. No matter how we create an object. But still, there are subtle differences, that we should take a look upon.
 
 ### Object Literal
 
@@ -176,9 +176,24 @@ Following is how we use it:
 
 This approach results in the same object as object literal notation.
 
+### Object.create method
+
+With this helper method, we can create an object with an another object as it's \[\[Prototype\]\].  Following is an example:
+
+    let SmartPhone = {
+      captureImages: function() {}
+    }
+    
+    let Iphone = Object.create(SmartPhone);
+    
+    
+    Iphone.captureImages();
+    Iphone.faceIDScan();
+
+
 ### Constructor Method
 
-Just like we have Object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs.
+Just like we have object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs and then using inheritance to 
 
 A constructor function is very similar to a class. In fact, in the next example, we will see a detailed comparison.
 
@@ -206,32 +221,5 @@ A constructor function is very similar to a class. In fact, in the next example,
     let x = new Iphone();
     x.captureImages();
     x.faceIDScan();
-
-### Object.create method
-
-With this helper method, we can create an object with an another object as it's \[\[Prototype\]\].  Following is an example:
-
-    let SmartPhone = {
-      captureImages: function() {}
-    }
-    
-    let Iphone = Object.create(SmartPhone);
-    
-    
-    Iphone.captureImages();
-    Iphone.faceIDScan();
-
-### Object.assign method
-
-Ever wonder, if you can create an Object which has no inherited methods. With Object.assign, you can do that.
-
-    let SmartPhone = {
-      captureImages: function() {}
-    };
-    
-    let Iphone = Object.create(SmartPhone);
-    Iphone.faceIDScan = function() {}
-    
-    let iPhoneX = Object.assign(SmartPhone, Iphone);
 
 ## Conclusion
