@@ -178,7 +178,7 @@ This approach results in the same object as object literal notation.
 
 ### Object.create method
 
-With this helper method, we can create an object with an another object as it's \[\[Prototype\]\].  Following is an example:
+With this helper method, we can create an object with another object as it's \[\[Prototype\]\].  Following is an example:
 
     let SmartPhone = {
       captureImages: function() {}
@@ -190,10 +190,11 @@ With this helper method, we can create an object with an another object as it's 
     Iphone.captureImages();
     Iphone.faceIDScan();
 
+This is one of the simplest ways of inheritance in JavaScript.
 
 ### Constructor Method
 
-Just like we have object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs and then using inheritance to 
+Just like we have object constructor function provided by JavaScript runtime. Similarly, we can create our own constructor, to create an object which suits our needs and then using inheritance to
 
 A constructor function is very similar to a class. In fact, in the next example, we will see a detailed comparison.
 
