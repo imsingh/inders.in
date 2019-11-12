@@ -70,13 +70,13 @@ There is a similar method to set the \[\[Prototype\]\] of an object. This is how
 
     Object.setPrototypeOf(obj, prototype);
 
-### `[[Prototype]]` and `prototype` property
+### `[[Prototype]]` and `.prototype` property
 
 We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation to designate the prototype of an object._ Many developers get it confused with **.prototype** property, which is an entirely different thing.
 
 Let's explore the **.prototype** property.
 
-In JavaScript, there are many ways of creating an Object. One way is using a constructor function. Following is how you create and use a constructor function :
+In JavaScript, there are many ways of creating an object. One way is using a constructor function. Following is how you create and use a constructor function :
 
     function SmartPhone(os) {
       this.os = os;
@@ -95,7 +95,7 @@ When you **console.log** the `phone` object, this is what you get:
         }
     }
 
-Now, if we want to have some methods on the SmartPhone object, we can do the following:
+Now, if we want to have some methods on the _phone_ object, we can use .prototype property on the function, as follows:
 
     SmartPhone.prototype.isAndroid = function() {
     	return this.os === 'Android' || 'android';
@@ -112,7 +112,7 @@ When we create the phone object again, we would see following in the console.log
         }
     }
 
-We can see the i_sAndroid()_ method in the object's \[\[Prototype\]\].
+We can see the isAndroid() method in the object's \[\[Prototype\]\].
 
 _In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
 
@@ -135,7 +135,7 @@ Let's take a look at the following example:
     }
     **/
 
-The problem with this approach is when we initiate a new object. All the instance gets their own copy of _methodA_. But when we create it on function's prototype, all instances of the object share the same of methods. Which is more efficient.
+The problem with this approach is when we initiate a new object. All the instance gets their own copy of _methodA_. But when we create it on function's prototype, all instances of the object share just one copy methods. Which is more efficient.
 
 ### What happens when we access a property?
 
@@ -174,7 +174,7 @@ Following is how we use it:
 
     let obj = new Object();
 
-This approach results in same object as object literal notation.
+This approach results in the same object as object literal notation.
 
 ### Constructor Method
 
@@ -216,7 +216,7 @@ With this helper method, we can create an object with an another object as it's 
     }
     
     let Iphone = Object.create(SmartPhone);
-    Iphone.faceIDScan = function() {}
+    
     
     Iphone.captureImages();
     Iphone.faceIDScan();
