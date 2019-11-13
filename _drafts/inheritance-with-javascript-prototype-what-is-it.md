@@ -139,18 +139,20 @@ Let's take a look at the following example:
     //   __proto__: Object
     // }
 
-The problem with this approach is when we initiate a new object. All the instance gets their own copy of _methodA_. But when we create it on function's prototype, all instances of the object share just one copy methods. Which is more efficient.
+The problem with this approach is when we initiate a new object. All the instance gets their own copy of _methodA_. But when we create it on function's prototype, all instances of the object share just one copy method. Which is more efficient.
 
 ### What happens when we access a property?
 
-When we try to access a property on an object. Following happens:
+We want to access the property either to get or set it. Following happens when we access a property:
 
 1. JavaScript engine looks for the property on the object.
-   1. If it finds the property, then it returns/execute it.
+   1. If it finds the property, then it _gets/sets_ it.
    2. Otherwise, it does the following.
 2. JavaScript Engine then checks the inherited property of an object by looking at \[\[Prototype\]\].
-   1. If the property is found, it gets executed/return.
+   1. If the property is found, then it _gets/sets_ it.
    2. Otherwise, it looks into \[\[Prototype\]\] of \[\[Prototype\]\]. This chain ends when either the property is found or there is no \[\[Prototype\]\] left, which means that we have reached the end of the prototype chain.
+
+It's also worth noting that the end of a normal object's \[\[Prototype\]\] chain is built-in Object.prototype.  That's the reason why most the object shares many methods like toString(). Because they are actually defined on Object.prototype.
 
 ## Various ways of Prototypical Inheritance
 
@@ -163,10 +165,6 @@ The easiest way to create an object in JavaScript is by using an object literal.
     let obj = {}; 
 
 If we log the obj in the browser's console, we will see the following:
-
-// browser log image
-
-// it has the default object prototype
 
 So basically, all the objects created with literal notation inherits properties from Object.prototype.
 
