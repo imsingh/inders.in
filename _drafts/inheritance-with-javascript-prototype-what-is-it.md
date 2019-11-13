@@ -42,18 +42,19 @@ Above is a trivial example of inheritance, where we simply re-used capturePictur
 
 ## What is Prototype?
 
-In JavaScript, all objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is called as `[[Prototype]]`
+In JavaScript, all objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is denoted as `[[Prototype]]`. 
 
 Since `[[Prototype]]` is linked to an object, that object has its own `[[Prototype]]` reference. This is how a chain is built, termed as the **prototype chain.**
 
-> This chain of prototype is the building-block of Inheritance in JavaScript.
+> This chain of `[[Prototype]]` is the building-block of Inheritance in JavaScript.
 
 ### `__proto__` object
 
-To access the object's `[[Prototype]]`, all the browsers have __proto property.
+To access the object's `[[Prototype]]`, all the browsers have `__proto__` property.
 
 This is how we can access it:
 
+    // obj is an actual object
     obj.__proto__
 
 It's important to notice that, this property is not part of the ECMAScript Standard. It is a de-facto implementation by the browsers.
@@ -116,6 +117,11 @@ We can see the isAndroid() method in the object's \[\[Prototype\]\].
 
 _In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
 
+As a matter of fact, if you compare the SmartPhone.prototype to phone's \[\[Prototype\]\], you will get the following:
+
+    console.log(Object.getPrototypeOf(phone) === SmartPhone.prototype);
+    // true
+
 It's worth noting that, we can also create methods inside the constructor function. Instead, we did it using the function's prototype. There is a good reason to do so.
 
 Let's take a look at the following example:
@@ -128,12 +134,10 @@ Let's take a look at the following example:
     console.log(firstObj);
     
     // log
-    /**
-    {
-      methodA: ƒ ()
-      __proto__: Object
-    }
-    **/
+    // {
+    //   methodA: ƒ ()
+    //   __proto__: Object
+    // }
 
 The problem with this approach is when we initiate a new object. All the instance gets their own copy of _methodA_. But when we create it on function's prototype, all instances of the object share just one copy methods. Which is more efficient.
 
