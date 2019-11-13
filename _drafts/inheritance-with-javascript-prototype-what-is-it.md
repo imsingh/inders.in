@@ -159,7 +159,7 @@ Just like we have object constructor function provided by JavaScript runtime. Si
 
 Now similarly, we want to create an iPhone class, which should have 'iOS' as it's os. It should also have faceIDScan method.
 
-First, we have to create a Iphone constructor function and inside it, we should call SmartPhone constructor, as follow:
+First, we have to create an Iphone constructor function and inside it, we should call SmartPhone constructor, as follow:
 
     function Iphone() {
        SmartPhone.call(this, 'iOS');
@@ -198,6 +198,7 @@ Following is how we create a class in ES6:
       	return this.os === 'iOS';
       }
     };
+    
     
     class Iphone extends SmartPhone {
        constructor() {
