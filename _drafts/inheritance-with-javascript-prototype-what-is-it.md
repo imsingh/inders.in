@@ -61,14 +61,9 @@ We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation t
 
 Let's explore the **.prototype** property.
 
-In JavaScript, there are many ways of creating an object. One way is using a constructor function, by calling it using `new` keyword. Following is how you create and use a constructor function :
+In JavaScript, there are many ways of creating an object. One way is using a constructor function, by calling the function using `new` keyword. Following is how you create and use a constructor function :
 
-    function SmartPhone(os) {
-      this.os = os;
-    }
-    
-    // creating an object from constructor function
-    let phone = new SmartPhone('Android');
+![](/uploads/constructor.log-1.png)
 
 When you **console.log** the `phone` object, you will see an object with `__proto__`property, as follows:
 
