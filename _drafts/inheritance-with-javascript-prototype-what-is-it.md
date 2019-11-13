@@ -166,7 +166,7 @@ The easiest way to create an object in JavaScript is by using an object literal.
 
 If we log the obj in the browser's console, we will see the following:
 
-So basically, all the objects created with literal notation inherits properties from Object.prototype.
+So basically, all the objects created with literal notation inherits properties from `Object.prototype`.
 
 ### Using Object Constructor
 
@@ -180,7 +180,7 @@ This approach results in the same object as object literal notation.
 
 ### Object.create method
 
-With this helper method, we can create an object with another object as it's \[\[Prototype\]\].  Following is an example:
+With this helper method, we can create an object with another object as it's `[[Prototype]]`.  Following is an example:
 
     let SmartPhone = {
       captureImages: function() {}
@@ -219,7 +219,7 @@ First, we have to create a Iphone constructor function and inside it, we should 
 
 This will set **this.os** property to **'iOS'** in Iphone constructor function.
 
-Next thing is, we have to inherit methods from SmartPhone constructor. We can use our Object.create friend here, as follows:
+Next thing is, we have to inherit methods from SmartPhone constructor. We can use our `Object.create` friend here, as follows:
 
     Iphone.prototype = Object.create(SmartPhone.prototype);
 
@@ -232,8 +232,6 @@ Finally, we can create Iphone object as follows:
     let x = new Iphone();
     console.log(x.isIos()):
     // true
-
-> Note: if you
 
 ### ES6 Class
 
