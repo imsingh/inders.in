@@ -41,7 +41,7 @@ This is how we can access it:
     // obj is an actual object
     obj.__proto__
 
-It's important to notice that, this property is not part of the ECMAScript Standard. It is a de-facto implementation by the browsers.
+It's important to note that, this property is not part of the ECMAScript Standard. It is a de-facto implementation by the browsers.
 
 ### Get and Set Prototype Methods
 
