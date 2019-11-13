@@ -97,20 +97,9 @@ It's worth noting that, we can also create methods inside the constructor functi
 
 Let's take a look at the following example:
 
-    function ObjectA() {
-      this.methodA = function() {}
-    };
-    
-    let firstObj = new ObjectA();
-    console.log(firstObj);
-    
-    // log
-    // {
-    //   methodA: ƒ ()
-    //   __proto__: Object
-    // }
+![](/uploads/prototype.log-1.png)
 
-The problem with this approach is when we initiate a new object. All the instance gets their own copy of _methodA_. But when we create it on function's prototype, all instances of the object share just one copy method. Which is more efficient.
+The problem with this approach is when we initiate a new object. All the instance gets their own copy of _methodA_. On the contrary,  when we create it on function's prototype, all instances of the object share just one copy method. **_Which is more efficient._**
 
 ### What happens when we access a property?
 
