@@ -13,36 +13,20 @@ Inheritance, a prominent feature of a programming language, emerged with the int
 
 Following is an example of how we create a class and an object in C++:
 
-    class SmartPhone {
-      public:
-      void captureImages() {}
-    };
-    
-    // creating object of SmartPhone
-    SmartPhone x;
-    x.captureImages();
-
+![](/uploads/cpp-class.png)  
 We created a class named _SmartPhone_ and it has a method named _capturePictures,_ to capture images.
 
 Let's imagine, we need an iPhone class, which should capture images along with some special features like face id scan. **This is where inheritance comes into play;** _a way to inherit features from other classes/objects._
 
 Following is how we can inherit capturePictures method from SmartPhone class, in our new Iphone class, in C++ :
 
-    class Iphone: public SmartPhone {
-      public:
-      void faceIDScan() {}
-    };
-    
-    // creating object of Iphone
-    Iphone x;
-    x.captureImages();
-    x.faceIDScan();
+![](/uploads/cpp-inheritance.png)
 
 Above is a trivial example of inheritance, where we simply re-used capturePictures method.
 
 ## What is Prototype?
 
-In JavaScript, all objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is denoted as `[[Prototype]]`. 
+In JavaScript, all objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is denoted as `[[Prototype]]`.
 
 Since `[[Prototype]]` is linked to an object, that object has its own `[[Prototype]]` reference. This is how a chain is built, termed as the **prototype chain.**
 
@@ -86,7 +70,7 @@ In JavaScript, there are many ways of creating an object. One way is using a con
     // creating an object from constructor function
     let phone = new SmartPhone('Android');
 
-When you **console.log** the `phone` object, you will see an object with `**proto **`property, as follows: 
+When you **console.log** the `phone` object, you will see an object with `**proto **`property, as follows:
 
     {
     	os: "Android",
@@ -113,7 +97,7 @@ When we create the phone object again, we would see following in the console.log
         }
     }
 
-We can see the `isAndroid()` method in the object's `[[Prototype]]`. 
+We can see the `isAndroid()` method in the object's `[[Prototype]]`.
 
 _In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in `.prototype` property/object will pop up in object's `[[Prototype]]`.
 
