@@ -72,13 +72,7 @@ In JavaScript, there are many ways of creating an object. One way is using a con
 
 When you **console.log** the `phone` object, you will see an object with `__proto__`property, as follows:
 
-    {
-    	os: "Android",
-    	__proto__: {
-    		constructor: ƒ SmartPhone(os),
-    		__proto__: Object
-        }
-    }
+![](/uploads/phone.log-1.png)
 
 Now, if we want to have some methods on the _phone_ object, we can use `.prototype` property on the function, as follows:
 
