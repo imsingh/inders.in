@@ -70,7 +70,7 @@ In JavaScript, there are many ways of creating an object. One way is using a con
     // creating an object from constructor function
     let phone = new SmartPhone('Android');
 
-When you **console.log** the `phone` object, you will see an object with `**proto **`property, as follows:
+When you **console.log** the `phone` object, you will see an object with `__proto__`property, as follows:
 
     {
     	os: "Android",
