@@ -137,14 +137,7 @@ This approach results in the same object as object literal notation. It inherits
 
 With this helper method, we can create an object with another object as it's `[[Prototype]]`.  Following is an example:
 
-    let SmartPhone = {
-      captureImages: function() {}
-    }
-    
-    let Iphone = Object.create(SmartPhone);
-    
-    Iphone.captureImages();
-    Iphone.faceIDScan();
+![](/uploads/obj.create.png)
 
 This is one of the simplest ways of inheritance in JavaScript.
 
