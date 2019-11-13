@@ -82,14 +82,7 @@ Now, if we want to have some methods on the _phone_ object, we can use `.prototy
 
 When we create the phone object again, we would see following in the console.log:
 
-    {
-    	os: "Android",
-    	__proto__: {
-        	isAndroid: ƒ (),
-    		constructor: ƒ SmartPhone(os),
-    		__proto__: Object
-        }
-    }
+![](/uploads/phone.log-2.png)
 
 We can see the `isAndroid()` method in the object's `[[Prototype]]`.
 
