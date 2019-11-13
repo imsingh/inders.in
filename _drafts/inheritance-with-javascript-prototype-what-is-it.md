@@ -157,27 +157,29 @@ Just like we have object constructor function provided by JavaScript runtime. Si
       return this.os === 'iOS';
     };
 
-Now similarly, we want to create an iPhone class, which should have 'iOS' as it's os. It should also have faceIDScan method.
+Now similarly, we want to create an iPhone class, which should have `'iOS'` as it's os. It should also have `faceIDScan` method.
 
-First, we have to create an Iphone constructor function and inside it, we should call SmartPhone constructor, as follow:
+First, we have to create an `Iphone` constructor function and inside it, we should call `SmartPhone` constructor, as follow:
 
     function Iphone() {
        SmartPhone.call(this, 'iOS');
     }
 
-This will set **this.os** property to **'iOS'** in Iphone constructor function.
+This will set **this.os** property to **'iOS'** in `Iphone` constructor function.
 
-Next thing is, we have to inherit methods from SmartPhone constructor. We can use our `Object.create` friend here, as follows:
+Next thing is, we have to inherit methods from `SmartPhone` constructor. We can use our `Object.create` friend here, as follows:
 
     Iphone.prototype = Object.create(SmartPhone.prototype);
 
-Now we can add methods specific to Iphone, using prototype as follows:
+Now we can add methods for `Iphone`, using `.prototype` as follows:
 
     Iphone.prototype.faceIDScan = function() {};
 
-Finally, we can create Iphone object as follows:
+Finally, we can create an object using `Iphone` as follows:
 
     let x = new Iphone();
+    
+    // calling inherited method
     console.log(x.isIos()):
     // true
 
