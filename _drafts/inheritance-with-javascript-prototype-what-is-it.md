@@ -20,7 +20,7 @@ Let's imagine, we need an iPhone class, which should capture images along with s
 
 Following is how we can inherit capturePictures method from SmartPhone class, in our new Iphone class, in C++ :
 
-![](/uploads/cpp-inheritance.png)
+![](/uploads/cpp-inheritance (1).png)
 
 Above is a trivial example of inheritance, where we simply re-used capturePictures method.
 
@@ -61,7 +61,7 @@ We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation t
 
 Let's explore the **.prototype** property.
 
-In JavaScript, there are many ways of creating an object. One way is using a constructor function, by call it using `new` keyword. Following is how you create and use a constructor function :
+In JavaScript, there are many ways of creating an object. One way is using a constructor function, by calling it using `new` keyword. Following is how you create and use a constructor function :
 
     function SmartPhone(os) {
       this.os = os;
