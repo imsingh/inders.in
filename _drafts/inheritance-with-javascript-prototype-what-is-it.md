@@ -44,7 +44,7 @@ Above is a trivial example of inheritance, where we simply re-used capturePictur
 
 In JavaScript, all objects have a special internal property; basically a reference to another object. This reference depends upon how the object is created. In ES6/JavaScript specification, it is called as `[[Prototype]]`
 
-Since `[[Prototype]]` itself is an object, it has its own `[[Prototype]]` reference. This is how a chain is built, termed as the **prototype chain.**
+Since `[[Prototype]]` is linked to an object, that object has its own `[[Prototype]]` reference. This is how a chain is built, termed as the **prototype chain.**
 
 > This chain of prototype is the building-block of Inheritance in JavaScript.
 
@@ -207,9 +207,9 @@ Just like we have object constructor function provided by JavaScript runtime. Si
       return this.os === 'iOS';
     };
 
-Now similarly, we want to create an iPhone class, which should have 'iOS' as it's os. It should also have faceIDScan method. 
+Now similarly, we want to create an iPhone class, which should have 'iOS' as it's os. It should also have faceIDScan method.
 
-First, we have to create a Iphone constructor function and inside it, we should call SmartPhone constructor, as follow: 
+First, we have to create a Iphone constructor function and inside it, we should call SmartPhone constructor, as follow:
 
     function Iphone() {
        SmartPhone.call(this, 'iOS');
@@ -217,7 +217,7 @@ First, we have to create a Iphone constructor function and inside it, we should 
 
 This will set **this.os** property to **'iOS'** in Iphone constructor function.
 
-Next thing is, we have to inherit methods from SmartPhone constructor. We can use our Object.create friend here, as follows: 
+Next thing is, we have to inherit methods from SmartPhone constructor. We can use our Object.create friend here, as follows:
 
     Iphone.prototype = Object.create(SmartPhone.prototype);
 
@@ -231,11 +231,13 @@ Finally, we can create Iphone object as follows:
     console.log(x.isIos()):
     // true
 
+> Note: if you
+
 ### ES6 Class
 
-With the ES6, this whole ordeal is way too simple. We can create classes _\[they are not the same as classes in c++ or other any class-based language, just a syntactical sugar on top of prototypical inheritance\]_ and derive new classes from other classes. 
+With the ES6, this whole ordeal is way too simple. We can create classes _\[they are not the same as classes in c++ or other any class-based language, just a syntactical sugar on top of prototypical inheritance\]_ and derive new classes from other classes.
 
-Following is how we create a class in ES6: 
+Following is how we create a class in ES6:
 
     class SmartPhone {
       constructor(os) {
