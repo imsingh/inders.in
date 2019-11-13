@@ -34,7 +34,7 @@ Since `[[Prototype]]` is linked to an object, that object has its own `[[Prototy
 
 ### `__proto__` object
 
-To access the object's `[[Prototype]]`, all the browsers have `__proto__` property.
+To access the object's `[[Prototype]]`, most of the browsers provide `__proto__` property.
 
 This is how we can access it:
 
