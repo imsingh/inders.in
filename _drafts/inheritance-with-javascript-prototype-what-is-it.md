@@ -61,7 +61,7 @@ We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation t
 
 Let's explore the **.prototype** property.
 
-In JavaScript, there are many ways of creating an object. One way is using a constructor function, by calling the function using `new` keyword. Following is how you create and use a constructor function :
+In JavaScript, there are many ways of creating an object. One way is using a constructor function, by calling it using `new` keyword. Following is how you create and use a constructor function :
 
 ![](/uploads/constructor.log-1.png)
 
@@ -71,11 +71,9 @@ When you **console.log** the `phone` object, you will see an object with `__prot
 
 Now, if we want to have some methods on the _phone_ object, we can use `.prototype` property on the function, as follows:
 
-    SmartPhone.prototype.isAndroid = function() {
-    	return this.os === 'Android' || 'android';
-    }
+![](/uploads/const.proto-1.png)
 
-When we create the phone object again, we would see following in the console.log:
+When we create the phone object again, we would see following in the `console.log`:
 
 ![](/uploads/phone.log-2.png)
 
@@ -121,6 +119,8 @@ The easiest way to create an object in JavaScript is by using an object literal.
 
 If we log the obj in the browser's console, we will see the following:
 
+![](/uploads/object-proto-1.png)
+
 So basically, all the objects created with literal notation inherits properties from `Object.prototype`.
 
 ### Using Object Constructor
@@ -131,7 +131,7 @@ Following is how we use it:
 
     let obj = new Object();
 
-This approach results in the same object as object literal notation.
+This approach results in the same object as object literal notation. It inherits properties from `Object.prototype`. Since we use `Object` as a constructor function.
 
 ### Object.create method
 
