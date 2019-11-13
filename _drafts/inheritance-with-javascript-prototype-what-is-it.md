@@ -77,7 +77,7 @@ We have discussed **\[\[Prototype\]\]**. _It's nothing but a standard notation t
 
 Let's explore the **.prototype** property.
 
-In JavaScript, there are many ways of creating an object. One way is using a constructor function. Following is how you create and use a constructor function :
+In JavaScript, there are many ways of creating an object. One way is using a constructor function, by call it using `new` keyword. Following is how you create and use a constructor function :
 
     function SmartPhone(os) {
       this.os = os;
@@ -86,7 +86,7 @@ In JavaScript, there are many ways of creating an object. One way is using a con
     // creating an object from constructor function
     let phone = new SmartPhone('Android');
 
-When you **console.log** the `phone` object, this is what you get:
+When you **console.log** the `phone` object, you will see an object with `**proto **`property, as follows: 
 
     {
     	os: "Android",
@@ -96,7 +96,7 @@ When you **console.log** the `phone` object, this is what you get:
         }
     }
 
-Now, if we want to have some methods on the _phone_ object, we can use .prototype property on the function, as follows:
+Now, if we want to have some methods on the _phone_ object, we can use `.prototype` property on the function, as follows:
 
     SmartPhone.prototype.isAndroid = function() {
     	return this.os === 'Android' || 'android';
@@ -113,11 +113,11 @@ When we create the phone object again, we would see following in the console.log
         }
     }
 
-We can see the isAndroid() method in the object's \[\[Prototype\]\].
+We can see the `isAndroid()` method in the object's `[[Prototype]]`. 
 
-_In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in .prototype property/object will pop up in object's \[\[Prototype\]\]
+_In short, .prototype property is basically like a blueprint for the **\[\[Prototype\]\]** object created by the given constructor function._ Anything that you declare in `.prototype` property/object will pop up in object's `[[Prototype]]`.
 
-As a matter of fact, if you compare the SmartPhone.prototype to phone's \[\[Prototype\]\], you will get the following:
+As a matter of fact, if you compare the `SmartPhone.prototype` to phone's `[[Prototype]]`, you will see that they are the same:
 
     console.log(Object.getPrototypeOf(phone) === SmartPhone.prototype);
     // true
@@ -148,11 +148,11 @@ We want to access the property either to get or set it. Following happens when w
 1. JavaScript engine looks for the property on the object.
    1. If it finds the property, then it _gets/sets_ it.
    2. Otherwise, it does the following.
-2. JavaScript Engine then checks the inherited property of an object by looking at \[\[Prototype\]\].
+2. JavaScript Engine then checks the inherited property of an object by looking at `[[Prototype]]`
    1. If the property is found, then it _gets/sets_ it.
-   2. Otherwise, it looks into \[\[Prototype\]\] of \[\[Prototype\]\]. This chain ends when either the property is found or there is no \[\[Prototype\]\] left, which means that we have reached the end of the prototype chain.
+   2. Otherwise, it looks into `[[Prototype]]` of `[[Prototype]]`. This chain ends when either the property is found or there is no `[[Prototype]]` left, which means that we have reached the end of the prototype chain.
 
-It's also worth noting that the end of a normal object's \[\[Prototype\]\] chain is built-in Object.prototype.  That's the reason why most the object shares many methods like toString(). Because they are actually defined on Object.prototype.
+It's also worth noting that the end of a normal object's `[[Prototype]]` chain is built-in `Object.prototype`.  That's the reason why most the object shares many methods like `toString()`. Because they are actually defined on `Object.prototype`
 
 ## Various ways of Prototypical Inheritance
 
