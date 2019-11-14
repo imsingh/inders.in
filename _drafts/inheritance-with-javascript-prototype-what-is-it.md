@@ -200,8 +200,9 @@ Following is how we create a class in ES6:
       	return this.os === 'iOS';
       }
     };
-    
-    
+
+Now we can create a new class which is derived from `SmartPhone`, as follows :
+
     class Iphone extends SmartPhone {
        constructor() {
          super.call('iOS');
