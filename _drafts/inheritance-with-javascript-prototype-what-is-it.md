@@ -179,6 +179,8 @@ Finally, we can create an object using `Iphone` as follows:
 
     let x = new Iphone();
     
+    x.faceIDScan();
+    
     // calling inherited method
     console.log(x.isIos()):
     // true
@@ -209,12 +211,15 @@ Now we can create a new class which is derived from `SmartPhone`, as follows :
        }
        faceIDScan() {}
     }
-    
+
+Finally, we can create an object using `Iphone` as follows:
+
     let x = new Iphone();
+    
     x.faceIDScan();
     
-    // inherited method
-    console.log(x.isIos());
+    // calling inherited method
+    console.log(x.isIos()):
     // true
 
 ## Conclusion
