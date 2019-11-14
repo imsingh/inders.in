@@ -217,3 +217,13 @@ Following is how we create a class in ES6:
     // true
 
 ## Conclusion
+
+Let's summarize what we have learned so far :
+
+* Inheritance in JavaScript isn't the same as class-based languages. Because there is no real concept of class.
+* `[[Prototype]]` is just a fancy way of referring to an object's prototype. 
+* We can access an object's prototype using either `**proto**` property or `Object.getPrototypeOf` method.
+* We learned what happens when we access a property on an object and what role does the prototype chain plays there.
+* Finally, we also learned about multiple ways of creating object in JavaScript.
+
+I hope this blog post was useful. To learn more about inheritance in JavaScript take a look at the article on [MDN.](https://developer.mozilla.org/en/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
