@@ -223,6 +223,7 @@ Let's summarize what we have learned so far :
 * Inheritance in JavaScript isn't the same as class-based languages. Because there is no real concept of class.
 * `[[Prototype]]` is just a fancy way of referring to an object's prototype. 
 * We can access an object's prototype using either `**proto**` property or `Object.getPrototypeOf` method.
+* We found out that function's prototype property acts as a blueprint for the object's `[[Prototype]]` created using `new` keyword.
 * We learned what happens when we access a property on an object and what role does the prototype chain plays there.
 * Finally, we also learned about multiple ways of creating object in JavaScript.
 
